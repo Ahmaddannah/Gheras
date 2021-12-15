@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99D0690123C8384BAD9A221F /* Pods_Gheras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */; };
+		F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489B276A1206009E2BA8 /* AppDelegate.swift */; };
+		F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */; };
+		F4A448A0276A1207009E2BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489F276A1207009E2BA8 /* ViewController.swift */; };
+		F4A448A3276A1207009E2BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A448A1276A1207009E2BA8 /* Main.storyboard */; };
+		F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */; };
+		F4A448A8276A1209009E2BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A448A7276A1209009E2BA8 /* Assets.xcassets */; };
+		F4A448AB276A1209009E2BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */; };
+		F4A448B3276A122D009E2BA8 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B2276A122D009E2BA8 /* ViewController1.swift */; };
+		F4A448B5276A1232009E2BA8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B4276A1232009E2BA8 /* ViewController2.swift */; };
+		F4A448B7276A1241009E2BA8 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B6276A1241009E2BA8 /* ViewController3.swift */; };
+		F4A448B9276A1247009E2BA8 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B8276A1247009E2BA8 /* ViewController4.swift */; };
+		F4A448BB276A1250009E2BA8 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BA276A124F009E2BA8 /* ViewController5.swift */; };
+		F4A448BD276A1259009E2BA8 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BC276A1259009E2BA8 /* ViewController6.swift */; };
+		F4A448BF276A125E009E2BA8 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BE276A125E009E2BA8 /* ViewController7.swift */; };
+		F4A448C1276A1263009E2BA8 /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C0276A1263009E2BA8 /* ViewController8.swift */; };
+		F4A448C3276A126A009E2BA8 /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C2276A126A009E2BA8 /* ViewController9.swift */; };
+		F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C4276A1270009E2BA8 /* ViewController10.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		324543CEF72FEFAD62397558 /* Pods-Gheras.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gheras.debug.xcconfig"; path = "Target Support Files/Pods-Gheras/Pods-Gheras.debug.xcconfig"; sourceTree = "<group>"; };
+		D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gheras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA628723CA05DD38161F3DC /* Pods-Gheras.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gheras.release.xcconfig"; path = "Target Support Files/Pods-Gheras/Pods-Gheras.release.xcconfig"; sourceTree = "<group>"; };
+		F4A44898276A1206009E2BA8 /* Gheras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gheras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A4489B276A1206009E2BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4A4489F276A1207009E2BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4A448A2276A1207009E2BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4A448A5276A1207009E2BA8 /* Gheras.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gheras.xcdatamodel; sourceTree = "<group>"; };
+		F4A448A7276A1209009E2BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4A448AA276A1209009E2BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4A448AC276A1209009E2BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A448B2276A122D009E2BA8 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		F4A448B4276A1232009E2BA8 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		F4A448B6276A1241009E2BA8 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		F4A448B8276A1247009E2BA8 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		F4A448BA276A124F009E2BA8 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		F4A448BC276A1259009E2BA8 /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		F4A448BE276A125E009E2BA8 /* ViewController7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		F4A448C0276A1263009E2BA8 /* ViewController8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		F4A448C2276A126A009E2BA8 /* ViewController9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
+		F4A448C4276A1270009E2BA8 /* ViewController10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController10.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A44895276A1206009E2BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D0690123C8384BAD9A221F /* Pods_Gheras.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696CE70A3915BCF876173ED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				324543CEF72FEFAD62397558 /* Pods-Gheras.debug.xcconfig */,
+				ECA628723CA05DD38161F3DC /* Pods-Gheras.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB85C6A562608679842A1E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4A4488F276A1206009E2BA8 = {
+			isa = PBXGroup;
+			children = (
+				F4A4489A276A1206009E2BA8 /* Gheras */,
+				F4A44899276A1206009E2BA8 /* Products */,
+				696CE70A3915BCF876173ED7 /* Pods */,
+				EB85C6A562608679842A1E74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A44899276A1206009E2BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A44898276A1206009E2BA8 /* Gheras.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A4489A276A1206009E2BA8 /* Gheras */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4489B276A1206009E2BA8 /* AppDelegate.swift */,
+				F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */,
+				F4A4489F276A1207009E2BA8 /* ViewController.swift */,
+				F4A448B2276A122D009E2BA8 /* ViewController1.swift */,
+				F4A448B4276A1232009E2BA8 /* ViewController2.swift */,
+				F4A448B6276A1241009E2BA8 /* ViewController3.swift */,
+				F4A448B8276A1247009E2BA8 /* ViewController4.swift */,
+				F4A448BA276A124F009E2BA8 /* ViewController5.swift */,
+				F4A448BC276A1259009E2BA8 /* ViewController6.swift */,
+				F4A448BE276A125E009E2BA8 /* ViewController7.swift */,
+				F4A448C0276A1263009E2BA8 /* ViewController8.swift */,
+				F4A448C2276A126A009E2BA8 /* ViewController9.swift */,
+				F4A448C4276A1270009E2BA8 /* ViewController10.swift */,
+				F4A448A1276A1207009E2BA8 /* Main.storyboard */,
+				F4A448A7276A1209009E2BA8 /* Assets.xcassets */,
+				F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */,
+				F4A448AC276A1209009E2BA8 /* Info.plist */,
+				F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */,
+			);
+			path = Gheras;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A44897276A1206009E2BA8 /* Gheras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A448AF276A1209009E2BA8 /* Build configuration list for PBXNativeTarget "Gheras" */;
+			buildPhases = (
+				72567EE5FB2874D71C149122 /* [CP] Check Pods Manifest.lock */,
+				F4A44894276A1206009E2BA8 /* Sources */,
+				F4A44895276A1206009E2BA8 /* Frameworks */,
+				F4A44896276A1206009E2BA8 /* Resources */,
+				BE8EB3FBC96599046FDDDE3A /* [CP] Embed Pods Frameworks */,
+				4F1D52C6BC314C910601631E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gheras;
+			productName = Gheras;
+			productReference = F4A44898276A1206009E2BA8 /* Gheras.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A44890276A1206009E2BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F4A44897276A1206009E2BA8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = F4A44893276A1206009E2BA8 /* Build configuration list for PBXProject "Gheras" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4A4488F276A1206009E2BA8;
+			productRefGroup = F4A44899276A1206009E2BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A44897276A1206009E2BA8 /* Gheras */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4A44896276A1206009E2BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A448AB276A1209009E2BA8 /* LaunchScreen.storyboard in Resources */,
+				F4A448A8276A1209009E2BA8 /* Assets.xcassets in Resources */,
+				F4A448A3276A1207009E2BA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F1D52C6BC314C910601631E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gheras/Pods-Gheras-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gheras/Pods-Gheras-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gheras/Pods-Gheras-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72567EE5FB2874D71C149122 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gheras-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE8EB3FBC96599046FDDDE3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gheras/Pods-Gheras-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gheras/Pods-Gheras-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gheras/Pods-Gheras-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A44894276A1206009E2BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A448A0276A1207009E2BA8 /* ViewController.swift in Sources */,
+				F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */,
+				F4A448B3276A122D009E2BA8 /* ViewController1.swift in Sources */,
+				F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */,
+				F4A448BD276A1259009E2BA8 /* ViewController6.swift in Sources */,
+				F4A448B9276A1247009E2BA8 /* ViewController4.swift in Sources */,
+				F4A448BB276A1250009E2BA8 /* ViewController5.swift in Sources */,
+				F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */,
+				F4A448BF276A125E009E2BA8 /* ViewController7.swift in Sources */,
+				F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */,
+				F4A448B7276A1241009E2BA8 /* ViewController3.swift in Sources */,
+				F4A448C3276A126A009E2BA8 /* ViewController9.swift in Sources */,
+				F4A448B5276A1232009E2BA8 /* ViewController2.swift in Sources */,
+				F4A448C1276A1263009E2BA8 /* ViewController8.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4A448A1276A1207009E2BA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A448A2276A1207009E2BA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A448AA276A1209009E2BA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4A448AD276A1209009E2BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4A448AE276A1209009E2BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4A448B0276A1209009E2BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324543CEF72FEFAD62397558 /* Pods-Gheras.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gheras/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldanah.Gheras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4A448B1276A1209009E2BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA628723CA05DD38161F3DC /* Pods-Gheras.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gheras/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldanah.Gheras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A44893276A1206009E2BA8 /* Build configuration list for PBXProject "Gheras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A448AD276A1209009E2BA8 /* Debug */,
+				F4A448AE276A1209009E2BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A448AF276A1209009E2BA8 /* Build configuration list for PBXNativeTarget "Gheras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A448B0276A1209009E2BA8 /* Debug */,
+				F4A448B1276A1209009E2BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4A448A5276A1207009E2BA8 /* Gheras.xcdatamodel */,
+			);
+			currentVersion = F4A448A5276A1207009E2BA8 /* Gheras.xcdatamodel */;
+			path = Gheras.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4A44890276A1206009E2BA8 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Gheras {
+  umbrella header "Pods-Gheras-umbrella.h"
+
+  export *
+  module * { export * }
+}
