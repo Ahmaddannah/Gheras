@@ -10,8 +10,6 @@
 		99D0690123C8384BAD9A221F /* Pods_Gheras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */; };
 		F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489B276A1206009E2BA8 /* AppDelegate.swift */; };
 		F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */; };
-		F4A448A0276A1207009E2BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489F276A1207009E2BA8 /* ViewController.swift */; };
-		F4A448A3276A1207009E2BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A448A1276A1207009E2BA8 /* Main.storyboard */; };
 		F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */; };
 		F4A448A8276A1209009E2BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A448A7276A1209009E2BA8 /* Assets.xcassets */; };
 		F4A448AB276A1209009E2BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */; };
@@ -34,8 +32,6 @@
 		F4A44898276A1206009E2BA8 /* Gheras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gheras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A4489B276A1206009E2BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4A4489F276A1207009E2BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4A448A2276A1207009E2BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4A448A5276A1207009E2BA8 /* Gheras.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gheras.xcdatamodel; sourceTree = "<group>"; };
 		F4A448A7276A1209009E2BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A448AA276A1209009E2BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,7 +66,6 @@
 				324543CEF72FEFAD62397558 /* Pods-Gheras.debug.xcconfig */,
 				ECA628723CA05DD38161F3DC /* Pods-Gheras.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,7 +100,6 @@
 			children = (
 				F4A4489B276A1206009E2BA8 /* AppDelegate.swift */,
 				F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */,
-				F4A4489F276A1207009E2BA8 /* ViewController.swift */,
 				F4A448B2276A122D009E2BA8 /* ViewController1.swift */,
 				F4A448B4276A1232009E2BA8 /* ViewController2.swift */,
 				F4A448B6276A1241009E2BA8 /* ViewController3.swift */,
@@ -116,7 +110,6 @@
 				F4A448C0276A1263009E2BA8 /* ViewController8.swift */,
 				F4A448C2276A126A009E2BA8 /* ViewController9.swift */,
 				F4A448C4276A1270009E2BA8 /* ViewController10.swift */,
-				F4A448A1276A1207009E2BA8 /* Main.storyboard */,
 				F4A448A7276A1209009E2BA8 /* Assets.xcassets */,
 				F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */,
 				F4A448AC276A1209009E2BA8 /* Info.plist */,
@@ -188,7 +181,6 @@
 			files = (
 				F4A448AB276A1209009E2BA8 /* LaunchScreen.storyboard in Resources */,
 				F4A448A8276A1209009E2BA8 /* Assets.xcassets in Resources */,
-				F4A448A3276A1207009E2BA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A448A0276A1207009E2BA8 /* ViewController.swift in Sources */,
 				F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */,
 				F4A448B3276A122D009E2BA8 /* ViewController1.swift in Sources */,
 				F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */,
@@ -278,14 +269,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4A448A1276A1207009E2BA8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4A448A2276A1207009E2BA8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,7 +408,6 @@
 				INFOPLIST_FILE = Gheras/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,7 +435,6 @@
 				INFOPLIST_FILE = Gheras/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
