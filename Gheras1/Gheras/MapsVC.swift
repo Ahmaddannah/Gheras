@@ -32,6 +32,7 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         myLocation.delegate = self
         myLocation.requestWhenInUseAuthorization()
         myLocation.startUpdatingLocation()
+//        myLocation.is
         
         
         //MapView
