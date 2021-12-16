@@ -6,7 +6,7 @@ target 'Gheras' do
   use_frameworks!
 
   # Pods for Gheras
-pod 'GoogleMaps'
+pod 'GoogleMaps' , '4.0.0'
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
 pod 'Firebase/Storage'

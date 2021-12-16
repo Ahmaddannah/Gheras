@@ -13,10 +13,10 @@
 		F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */; };
 		F4A448A8276A1209009E2BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A448A7276A1209009E2BA8 /* Assets.xcassets */; };
 		F4A448AB276A1209009E2BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */; };
-		F4A448B3276A122D009E2BA8 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B2276A122D009E2BA8 /* ViewController1.swift */; };
-		F4A448B5276A1232009E2BA8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B4276A1232009E2BA8 /* ViewController2.swift */; };
-		F4A448B7276A1241009E2BA8 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B6276A1241009E2BA8 /* ViewController3.swift */; };
-		F4A448B9276A1247009E2BA8 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B8276A1247009E2BA8 /* ViewController4.swift */; };
+		F4A448B3276A122D009E2BA8 /* MapsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B2276A122D009E2BA8 /* MapsVC.swift */; };
+		F4A448B5276A1232009E2BA8 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B4276A1232009E2BA8 /* SignInVC.swift */; };
+		F4A448B7276A1241009E2BA8 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B6276A1241009E2BA8 /* SignUpVC.swift */; };
+		F4A448B9276A1247009E2BA8 /* ForgotPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B8276A1247009E2BA8 /* ForgotPassVC.swift */; };
 		F4A448BB276A1250009E2BA8 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BA276A124F009E2BA8 /* ViewController5.swift */; };
 		F4A448BD276A1259009E2BA8 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BC276A1259009E2BA8 /* ViewController6.swift */; };
 		F4A448BF276A125E009E2BA8 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BE276A125E009E2BA8 /* ViewController7.swift */; };
@@ -36,10 +36,10 @@
 		F4A448A7276A1209009E2BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A448AA276A1209009E2BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A448AC276A1209009E2BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4A448B2276A122D009E2BA8 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
-		F4A448B4276A1232009E2BA8 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		F4A448B6276A1241009E2BA8 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
-		F4A448B8276A1247009E2BA8 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		F4A448B2276A122D009E2BA8 /* MapsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsVC.swift; sourceTree = "<group>"; };
+		F4A448B4276A1232009E2BA8 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		F4A448B6276A1241009E2BA8 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		F4A448B8276A1247009E2BA8 /* ForgotPassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassVC.swift; sourceTree = "<group>"; };
 		F4A448BA276A124F009E2BA8 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 		F4A448BC276A1259009E2BA8 /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 		F4A448BE276A125E009E2BA8 /* ViewController7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
@@ -100,10 +100,10 @@
 			children = (
 				F4A4489B276A1206009E2BA8 /* AppDelegate.swift */,
 				F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */,
-				F4A448B2276A122D009E2BA8 /* ViewController1.swift */,
-				F4A448B4276A1232009E2BA8 /* ViewController2.swift */,
-				F4A448B6276A1241009E2BA8 /* ViewController3.swift */,
-				F4A448B8276A1247009E2BA8 /* ViewController4.swift */,
+				F4A448B4276A1232009E2BA8 /* SignInVC.swift */,
+				F4A448B6276A1241009E2BA8 /* SignUpVC.swift */,
+				F4A448B8276A1247009E2BA8 /* ForgotPassVC.swift */,
+				F4A448B2276A122D009E2BA8 /* MapsVC.swift */,
 				F4A448BA276A124F009E2BA8 /* ViewController5.swift */,
 				F4A448BC276A1259009E2BA8 /* ViewController6.swift */,
 				F4A448BE276A125E009E2BA8 /* ViewController7.swift */,
@@ -251,17 +251,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */,
-				F4A448B3276A122D009E2BA8 /* ViewController1.swift in Sources */,
+				F4A448B3276A122D009E2BA8 /* MapsVC.swift in Sources */,
 				F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */,
 				F4A448BD276A1259009E2BA8 /* ViewController6.swift in Sources */,
-				F4A448B9276A1247009E2BA8 /* ViewController4.swift in Sources */,
+				F4A448B9276A1247009E2BA8 /* ForgotPassVC.swift in Sources */,
 				F4A448BB276A1250009E2BA8 /* ViewController5.swift in Sources */,
 				F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */,
 				F4A448BF276A125E009E2BA8 /* ViewController7.swift in Sources */,
 				F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */,
-				F4A448B7276A1241009E2BA8 /* ViewController3.swift in Sources */,
+				F4A448B7276A1241009E2BA8 /* SignUpVC.swift in Sources */,
 				F4A448C3276A126A009E2BA8 /* ViewController9.swift in Sources */,
-				F4A448B5276A1232009E2BA8 /* ViewController2.swift in Sources */,
+				F4A448B5276A1232009E2BA8 /* SignInVC.swift in Sources */,
 				F4A448C1276A1263009E2BA8 /* ViewController8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,8 +404,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78MN8Q8M4U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gheras/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "نرغب في  الوصول لموقعك";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -415,7 +417,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aldanah.Gheras;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldanah.Gherasss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,8 +433,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78MN8Q8M4U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gheras/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "نرغب في  الوصول لموقعك";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -442,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aldanah.Gheras;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldanah.Gherasss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
