@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		99D0690123C8384BAD9A221F /* Pods_Gheras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */; };
+		F4455AB6276B8DEC007C8FCF /* customCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455AB5276B8DEC007C8FCF /* customCollectionViewCell.swift */; };
+		F4455AB8276B8E4E007C8FCF /* PurcahsePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455AB7276B8E4E007C8FCF /* PurcahsePage.swift */; };
 		F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489B276A1206009E2BA8 /* AppDelegate.swift */; };
 		F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */; };
 		F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */; };
@@ -17,11 +19,11 @@
 		F4A448B5276A1232009E2BA8 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B4276A1232009E2BA8 /* SignInVC.swift */; };
 		F4A448B7276A1241009E2BA8 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B6276A1241009E2BA8 /* SignUpVC.swift */; };
 		F4A448B9276A1247009E2BA8 /* ForgotPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448B8276A1247009E2BA8 /* ForgotPassVC.swift */; };
-		F4A448BB276A1250009E2BA8 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BA276A124F009E2BA8 /* ViewController5.swift */; };
-		F4A448BD276A1259009E2BA8 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BC276A1259009E2BA8 /* ViewController6.swift */; };
-		F4A448BF276A125E009E2BA8 /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BE276A125E009E2BA8 /* ViewController7.swift */; };
-		F4A448C1276A1263009E2BA8 /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C0276A1263009E2BA8 /* ViewController8.swift */; };
-		F4A448C3276A126A009E2BA8 /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C2276A126A009E2BA8 /* ViewController9.swift */; };
+		F4A448BB276A1250009E2BA8 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BA276A124F009E2BA8 /* TabBarVC.swift */; };
+		F4A448BD276A1259009E2BA8 /* AllUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */; };
+		F4A448BF276A125E009E2BA8 /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BE276A125E009E2BA8 /* StoreVC.swift */; };
+		F4A448C1276A1263009E2BA8 /* AddNewReqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */; };
+		F4A448C3276A126A009E2BA8 /* NextVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C2276A126A009E2BA8 /* NextVc.swift */; };
 		F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C4276A1270009E2BA8 /* ViewController10.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		324543CEF72FEFAD62397558 /* Pods-Gheras.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gheras.debug.xcconfig"; path = "Target Support Files/Pods-Gheras/Pods-Gheras.debug.xcconfig"; sourceTree = "<group>"; };
 		D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gheras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA628723CA05DD38161F3DC /* Pods-Gheras.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gheras.release.xcconfig"; path = "Target Support Files/Pods-Gheras/Pods-Gheras.release.xcconfig"; sourceTree = "<group>"; };
+		F4455AB5276B8DEC007C8FCF /* customCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCollectionViewCell.swift; sourceTree = "<group>"; };
+		F4455AB7276B8E4E007C8FCF /* PurcahsePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurcahsePage.swift; sourceTree = "<group>"; };
 		F4A44898276A1206009E2BA8 /* Gheras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gheras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A4489B276A1206009E2BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +44,11 @@
 		F4A448B4276A1232009E2BA8 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		F4A448B6276A1241009E2BA8 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		F4A448B8276A1247009E2BA8 /* ForgotPassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassVC.swift; sourceTree = "<group>"; };
-		F4A448BA276A124F009E2BA8 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
-		F4A448BC276A1259009E2BA8 /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
-		F4A448BE276A125E009E2BA8 /* ViewController7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
-		F4A448C0276A1263009E2BA8 /* ViewController8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
-		F4A448C2276A126A009E2BA8 /* ViewController9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
+		F4A448BA276A124F009E2BA8 /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllUsersVC.swift; sourceTree = "<group>"; };
+		F4A448BE276A125E009E2BA8 /* StoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewReqVC.swift; sourceTree = "<group>"; };
+		F4A448C2276A126A009E2BA8 /* NextVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextVc.swift; sourceTree = "<group>"; };
 		F4A448C4276A1270009E2BA8 /* ViewController10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController10.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +81,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F4455AB9276B8F03007C8FCF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4455ABA276B8F10007C8FCF /* Store */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F4455ABA276B8F10007C8FCF /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				F4A448BE276A125E009E2BA8 /* StoreVC.swift */,
+				F4455AB5276B8DEC007C8FCF /* customCollectionViewCell.swift */,
+				F4455AB7276B8E4E007C8FCF /* PurcahsePage.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		F4455ABB276B97F4007C8FCF /* NewRequestVC_Map */ = {
+			isa = PBXGroup;
+			children = (
+				F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */,
+				F4A448C2276A126A009E2BA8 /* NextVc.swift */,
+			);
+			path = NewRequestVC_Map;
+			sourceTree = "<group>";
+		};
+		F4455ABC276B9821007C8FCF /* SignIn_SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				F4A448B4276A1232009E2BA8 /* SignInVC.swift */,
+				F4A448B6276A1241009E2BA8 /* SignUpVC.swift */,
+				F4A448B8276A1247009E2BA8 /* ForgotPassVC.swift */,
+			);
+			path = SignIn_SignUp;
+			sourceTree = "<group>";
+		};
 		F4A4488F276A1206009E2BA8 = {
 			isa = PBXGroup;
 			children = (
@@ -100,15 +141,12 @@
 			children = (
 				F4A4489B276A1206009E2BA8 /* AppDelegate.swift */,
 				F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */,
-				F4A448B4276A1232009E2BA8 /* SignInVC.swift */,
-				F4A448B6276A1241009E2BA8 /* SignUpVC.swift */,
-				F4A448B8276A1247009E2BA8 /* ForgotPassVC.swift */,
+				F4A448BA276A124F009E2BA8 /* TabBarVC.swift */,
+				F4455AB9276B8F03007C8FCF /* ViewController */,
+				F4455ABC276B9821007C8FCF /* SignIn_SignUp */,
+				F4455ABB276B97F4007C8FCF /* NewRequestVC_Map */,
+				F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */,
 				F4A448B2276A122D009E2BA8 /* MapsVC.swift */,
-				F4A448BA276A124F009E2BA8 /* ViewController5.swift */,
-				F4A448BC276A1259009E2BA8 /* ViewController6.swift */,
-				F4A448BE276A125E009E2BA8 /* ViewController7.swift */,
-				F4A448C0276A1263009E2BA8 /* ViewController8.swift */,
-				F4A448C2276A126A009E2BA8 /* ViewController9.swift */,
 				F4A448C4276A1270009E2BA8 /* ViewController10.swift */,
 				F4A448A7276A1209009E2BA8 /* Assets.xcassets */,
 				F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */,
@@ -253,16 +291,18 @@
 				F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */,
 				F4A448B3276A122D009E2BA8 /* MapsVC.swift in Sources */,
 				F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */,
-				F4A448BD276A1259009E2BA8 /* ViewController6.swift in Sources */,
+				F4455AB6276B8DEC007C8FCF /* customCollectionViewCell.swift in Sources */,
+				F4A448BD276A1259009E2BA8 /* AllUsersVC.swift in Sources */,
 				F4A448B9276A1247009E2BA8 /* ForgotPassVC.swift in Sources */,
-				F4A448BB276A1250009E2BA8 /* ViewController5.swift in Sources */,
+				F4A448BB276A1250009E2BA8 /* TabBarVC.swift in Sources */,
 				F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */,
-				F4A448BF276A125E009E2BA8 /* ViewController7.swift in Sources */,
+				F4A448BF276A125E009E2BA8 /* StoreVC.swift in Sources */,
 				F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */,
 				F4A448B7276A1241009E2BA8 /* SignUpVC.swift in Sources */,
-				F4A448C3276A126A009E2BA8 /* ViewController9.swift in Sources */,
+				F4A448C3276A126A009E2BA8 /* NextVc.swift in Sources */,
+				F4455AB8276B8E4E007C8FCF /* PurcahsePage.swift in Sources */,
 				F4A448B5276A1232009E2BA8 /* SignInVC.swift in Sources */,
-				F4A448C1276A1263009E2BA8 /* ViewController8.swift in Sources */,
+				F4A448C1276A1263009E2BA8 /* AddNewReqVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

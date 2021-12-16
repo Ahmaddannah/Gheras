@@ -12,22 +12,25 @@ import GoogleMaps
 
 
 class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate {
-    
+  
+
     
     var myLocation = CLLocationManager()
     
-    var mapView: GMSMapView! = GMSMapView(frame: CGRect(x: 0, y: 0, width: 500, height: 900))
+
     var coordinatesAddressLabel = UILabel()
 //    UIView(frame: CGRect(x: 0, y: 0, width: 500, height: 900)) as! GMSMapView
     var pin = UIImageView()
-    let newBtn = UIButton()
+    var newBtn = UIButton()
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .orange
-        
-        
+        let hegiht = view.frame.height
+        let widht = view.frame.width
+        var mapView: GMSMapView! = GMSMapView(frame: CGRect(x: 0, y: 0, width: widht, height: hegiht))
         // Location
         myLocation.delegate = self
         myLocation.requestWhenInUseAuthorization()
@@ -41,15 +44,19 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         // isMyLocationEnabled: Enabling Location blue dot
         mapView.delegate = self
         mapView.settings.myLocationButton = true
+//        mapView.mapType = GMSMapViewType.kGMSTypeSatellite
         mapView.isMyLocationEnabled = true
+ 
 
         
         //Label
-        coordinatesAddressLabel = UILabel(frame: CGRect(x: 20, y: 730, width: 400, height: 80))
-        coordinatesAddressLabel.textColor = .purple
-        coordinatesAddressLabel.backgroundColor = .white
-        
-
+        coordinatesAddressLabel = UILabel(frame: CGRect(x: 10, y: hegiht - hegiht / 8 , width: widht - widht / 4 , height: 80))
+        coordinatesAddressLabel.textColor = .black
+        coordinatesAddressLabel.numberOfLines = 4
+        coordinatesAddressLabel.textAlignment = .left
+        coordinatesAddressLabel.backgroundColor = .lightGray
+        coordinatesAddressLabel.backgroundColor = UIColor.white.withAlphaComponent(0.7)
+//        coordinatesAddressLabel
         
         //Pin
         pin = UIImageView(frame: CGRect(x: view.frame.width / 2 - pin.frame.width / 2, y: view.frame.height / 2 - pin.frame.height / 2, width: 20.0, height: 20.0))
@@ -57,17 +64,21 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         pin.tintColor = .purple
         
         //Add New
-        newBtn.tintColor = .blue
-        newBtn.frame = CGRect(x: 100, y: 100, width: 50, height: 50)
-//        newBtn.titleLabel?.text = "+"
-        pin.image = UIImage(systemName: "pin")
-
+        newBtn.tintColor = .black
+        newBtn.frame = CGRect(x: widht - widht / 4 , y: hegiht - hegiht + 40 , width: hegiht / 10, height: hegiht / 10)
+        newBtn.setTitleColor(.green, for: .normal)
+        newBtn.backgroundColor = .red
+        newBtn.titleLabel?.text = "+"
+        newBtn.setImage(UIImage(systemName: "plus.circle.fill"), for: .normal)
+        newBtn.layer.cornerRadius = newBtn.frame.width / 2
+        newBtn.clipsToBounds = true
         
         //Add Subviews
         view.addSubview(mapView)
         view.addSubview(pin)
         view.addSubview(coordinatesAddressLabel)
-//        view.addSubview(newBtn)
+        view.addSubview(newBtn)
+
         
     }
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -76,7 +87,7 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
             let longitude = location.coordinate.longitude
             let camera = GMSCameraPosition.camera(withLatitude: latitude, longitude: longitude, zoom: 17.0)
             
-            self.mapView.animate(to: camera)
+//            self.mapView.animate(to: camera)
             self.myLocation.stopUpdatingLocation()
 
             
@@ -107,8 +118,17 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         
         
         marker.title = "الإحداثيات"
-        marker.snippet = "\(markerLatitude)\n\(markerLongitude)"
+        marker.snippet = "\(markerLatitude)\n\(markerLongitude)\n الاسم :  \n البروفايل : "
+        
+        marker.icon = GMSMarker.markerImage(with: .green)
         marker.map = mapView
+//        marker.icon?.cgImage = UIImage(systemName: "tree")
+        
+        let solidBlue = GMSStrokeStyle.solidColor(.blue)
+        let solidBlueSpan = GMSStyleSpan(style: solidBlue)
+        let redYellow = GMSStrokeStyle.gradient(from: .red, to: .yellow)
+        let redYellowSpan = GMSStyleSpan(style: redYellow)
+
     }
     
    
