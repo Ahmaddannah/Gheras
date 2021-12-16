@@ -10,6 +10,11 @@
 		99D0690123C8384BAD9A221F /* Pods_Gheras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */; };
 		F4455AB6276B8DEC007C8FCF /* customCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455AB5276B8DEC007C8FCF /* customCollectionViewCell.swift */; };
 		F4455AB8276B8E4E007C8FCF /* PurcahsePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455AB7276B8E4E007C8FCF /* PurcahsePage.swift */; };
+		F4455AC0276B9F4D007C8FCF /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455ABF276B9F4D007C8FCF /* ProfileVC.swift */; };
+		F4455AC3276BA0E4007C8FCF /* QsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455AC2276BA0E4007C8FCF /* QsViewController.swift */; };
+		F4455AC5276BA2AC007C8FCF /* request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455AC4276BA2AC007C8FCF /* request.swift */; };
+		F4455AC9276BA3D4007C8FCF /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455AC8276BA3D4007C8FCF /* RequestCell.swift */; };
+		F4455ACB276BAA49007C8FCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4455ACA276BAA49007C8FCF /* GoogleService-Info.plist */; };
 		F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489B276A1206009E2BA8 /* AppDelegate.swift */; };
 		F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */; };
 		F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */; };
@@ -33,13 +38,17 @@
 		ECA628723CA05DD38161F3DC /* Pods-Gheras.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gheras.release.xcconfig"; path = "Target Support Files/Pods-Gheras/Pods-Gheras.release.xcconfig"; sourceTree = "<group>"; };
 		F4455AB5276B8DEC007C8FCF /* customCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCollectionViewCell.swift; sourceTree = "<group>"; };
 		F4455AB7276B8E4E007C8FCF /* PurcahsePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurcahsePage.swift; sourceTree = "<group>"; };
+		F4455ABF276B9F4D007C8FCF /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F4455AC2276BA0E4007C8FCF /* QsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QsViewController.swift; sourceTree = "<group>"; };
+		F4455AC4276BA2AC007C8FCF /* request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = request.swift; sourceTree = "<group>"; };
+		F4455AC8276BA3D4007C8FCF /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
+		F4455ACA276BAA49007C8FCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F4A44898276A1206009E2BA8 /* Gheras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gheras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A4489B276A1206009E2BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F4A448A5276A1207009E2BA8 /* Gheras.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gheras.xcdatamodel; sourceTree = "<group>"; };
 		F4A448A7276A1209009E2BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A448AA276A1209009E2BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F4A448AC276A1209009E2BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A448B2276A122D009E2BA8 /* MapsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsVC.swift; sourceTree = "<group>"; };
 		F4A448B4276A1232009E2BA8 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		F4A448B6276A1241009E2BA8 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
@@ -50,6 +59,7 @@
 		F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewReqVC.swift; sourceTree = "<group>"; };
 		F4A448C2276A126A009E2BA8 /* NextVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextVc.swift; sourceTree = "<group>"; };
 		F4A448C4276A1270009E2BA8 /* ViewController10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController10.swift; sourceTree = "<group>"; };
+		F4BAC411276BAED9004687E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,10 @@
 		F4455AB9276B8F03007C8FCF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F4455AC1276BA0D0007C8FCF /* Q */,
+				F4455ABB276B97F4007C8FCF /* NewRequestVC_Map */,
+				F4455ABC276B9821007C8FCF /* SignIn_SignUp */,
+				F4455ABE276B9F2C007C8FCF /* Profile */,
 				F4455ABA276B8F10007C8FCF /* Store */,
 			);
 			path = ViewController;
@@ -118,6 +132,23 @@
 			path = SignIn_SignUp;
 			sourceTree = "<group>";
 		};
+		F4455ABE276B9F2C007C8FCF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F4455ABF276B9F4D007C8FCF /* ProfileVC.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		F4455AC1276BA0D0007C8FCF /* Q */ = {
+			isa = PBXGroup;
+			children = (
+				F4455AC2276BA0E4007C8FCF /* QsViewController.swift */,
+				F4455AC4276BA2AC007C8FCF /* request.swift */,
+			);
+			name = Q;
+			sourceTree = "<group>";
+		};
 		F4A4488F276A1206009E2BA8 = {
 			isa = PBXGroup;
 			children = (
@@ -139,18 +170,18 @@
 		F4A4489A276A1206009E2BA8 /* Gheras */ = {
 			isa = PBXGroup;
 			children = (
+				F4BAC411276BAED9004687E4 /* Info.plist */,
+				F4455ACA276BAA49007C8FCF /* GoogleService-Info.plist */,
 				F4A4489B276A1206009E2BA8 /* AppDelegate.swift */,
 				F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */,
 				F4A448BA276A124F009E2BA8 /* TabBarVC.swift */,
 				F4455AB9276B8F03007C8FCF /* ViewController */,
-				F4455ABC276B9821007C8FCF /* SignIn_SignUp */,
-				F4455ABB276B97F4007C8FCF /* NewRequestVC_Map */,
 				F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */,
+				F4455AC8276BA3D4007C8FCF /* RequestCell.swift */,
 				F4A448B2276A122D009E2BA8 /* MapsVC.swift */,
 				F4A448C4276A1270009E2BA8 /* ViewController10.swift */,
 				F4A448A7276A1209009E2BA8 /* Assets.xcassets */,
 				F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */,
-				F4A448AC276A1209009E2BA8 /* Info.plist */,
 				F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */,
 			);
 			path = Gheras;
@@ -219,6 +250,7 @@
 			files = (
 				F4A448AB276A1209009E2BA8 /* LaunchScreen.storyboard in Resources */,
 				F4A448A8276A1209009E2BA8 /* Assets.xcassets in Resources */,
+				F4455ACB276BAA49007C8FCF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,15 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4455AC9276BA3D4007C8FCF /* RequestCell.swift in Sources */,
 				F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */,
 				F4A448B3276A122D009E2BA8 /* MapsVC.swift in Sources */,
 				F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */,
 				F4455AB6276B8DEC007C8FCF /* customCollectionViewCell.swift in Sources */,
+				F4455AC0276B9F4D007C8FCF /* ProfileVC.swift in Sources */,
 				F4A448BD276A1259009E2BA8 /* AllUsersVC.swift in Sources */,
 				F4A448B9276A1247009E2BA8 /* ForgotPassVC.swift in Sources */,
 				F4A448BB276A1250009E2BA8 /* TabBarVC.swift in Sources */,
+				F4455AC3276BA0E4007C8FCF /* QsViewController.swift in Sources */,
 				F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */,
 				F4A448BF276A125E009E2BA8 /* StoreVC.swift in Sources */,
+				F4455AC5276BA2AC007C8FCF /* request.swift in Sources */,
 				F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */,
 				F4A448B7276A1241009E2BA8 /* SignUpVC.swift in Sources */,
 				F4A448C3276A126A009E2BA8 /* NextVc.swift in Sources */,
@@ -457,7 +493,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aldanah.Gherasss;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.Gheras;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +522,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aldanah.Gherasss;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.Gheras;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

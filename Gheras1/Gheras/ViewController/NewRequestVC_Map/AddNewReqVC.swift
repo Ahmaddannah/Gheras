@@ -6,9 +6,10 @@
 //
 
 import UIKit
-
+import Firebase
 class AddNewReqVC: UIViewController , UITextFieldDelegate, UIImagePickerControllerDelegate,UINavigationControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
        
+   let db = Firestore.firestore()
       // viewController
       let firstView = UIView(frame: CGRect(x: 0, y: 120, width: 400, height: 700))
       let secondView = UIView(frame: CGRect(x: 0, y: 120, width: 400, height: 700))
@@ -201,20 +202,20 @@ class AddNewReqVC: UIViewController , UITextFieldDelegate, UIImagePickerControll
       }
        
       func addCollection(){
-        //    let requstID = UUID().uuidString
-        //    let dayDate = Date()
-        //    db.collection("Requests").addDocument(data:
-        //                        ["UsarID":Auth.auth().currentUser?.uid , "RequstType": "***" , "RequstID": requstID , "RequstDescription" : "***", "RequstDate": dayDate ])
-        //                         { (error) in
-        //      if error == nil {
-        //        print("new doc has been creauted..")
-        //      }else{
-        //        print(error?.localizedDescription)
-        //      }
+            let requstID = UUID().uuidString
+            let dayDate = Date()
+            db.collection("Requests").addDocument(data:
+                                ["UsarID":Auth.auth().currentUser?.uid , "RequstType": "***" , "RequstID": requstID , "RequstDescription" : "***", "RequstDate": dayDate ])
+                                 { (error) in
+              if error == nil {
+                print("new doc has been creauted..")
+              }else{
+                print(error?.localizedDescription)
+              }
       }
       //***RequstType : inner ,outter plant? .take it from segment for example//
       //***RequstDescription" : user must write a Description. take this vlue from textFeiel for example//
-       
+      }
        
        
       func numberOfComponents(in pickerView: UIPickerView) -> Int {
