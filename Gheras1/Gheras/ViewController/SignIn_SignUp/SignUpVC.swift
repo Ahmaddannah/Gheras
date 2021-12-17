@@ -122,11 +122,11 @@ class SignUpVC: UIViewController {
           
          if Error == nil {
            self.addUser(userId: (user?.user.uid)!)
-           let vc = ProfileVC()
+           let vc = TabBarVC()
            vc.modalPresentationStyle = .fullScreen
            self.present(vc, animated: true, completion: nil)
             
-         }else{
+         } else{
            let alert = UIAlertController(title: "Alert", message: Error?.localizedDescription, preferredStyle: .alert)
            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
            self.present(alert, animated: true, completion: nil)

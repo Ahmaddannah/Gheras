@@ -26,7 +26,7 @@ class questionsViewController: UIViewController {
         button.tintColor =  .gray
       button.frame.size = CGSize(width: 40, height: 40)
       button.layer.cornerRadius = button.frame.width/2
-      button.addTarget(self, action: #selector(dismissBtnAction), for: .touchDown)
+        button.addTarget(self, action: #selector(dismissBtnAction), for: .touchDown)
       button.translatesAutoresizingMaskIntoConstraints = false
       return button
   }()
@@ -116,12 +116,11 @@ class questionsViewController: UIViewController {
    
    
   @objc func dismissBtnAction() {
-    self.dismiss(animated: true, completion: nil)
-  }
+      dismiss(animated: true, completion: nil)
    
   
 }
-
+}
 
 
 //MARK: -NSLayoutConstraint

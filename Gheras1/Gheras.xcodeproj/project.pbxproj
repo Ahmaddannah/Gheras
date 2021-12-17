@@ -94,10 +94,10 @@
 		F4455AB9276B8F03007C8FCF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F4455ABE276B9F2C007C8FCF /* Profile */,
 				F4455AC1276BA0D0007C8FCF /* Q */,
 				F4455ABB276B97F4007C8FCF /* NewRequestVC_Map */,
 				F4455ABC276B9821007C8FCF /* SignIn_SignUp */,
-				F4455ABE276B9F2C007C8FCF /* Profile */,
 				F4455ABA276B8F10007C8FCF /* Store */,
 			);
 			path = ViewController;

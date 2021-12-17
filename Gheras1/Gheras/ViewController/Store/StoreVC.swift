@@ -14,24 +14,25 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
        
        
       let buyButton : UIButton = {
-        let butt = UIButton()
-        butt.setImage(.init(systemName: "cart.badge.plus"), for: .normal)
-        butt.backgroundColor = .white
+        let addStoreButton = UIButton()
+        addStoreButton.setImage(.init(systemName: "cart.badge.plus"), for: .normal)
+        addStoreButton.backgroundColor = .white
+          addStoreButton.tintColor = .green
     //    butt.backgroundColor = .blue
-        butt.layer.cornerRadius = 10
-        butt.layer.cornerRadius = butt.frame.height/2
-        butt.setTitleColor(.blue, for: .normal)
-        butt.clipsToBounds = true
+        addStoreButton.layer.cornerRadius = 10
+        addStoreButton.layer.cornerRadius = addStoreButton.frame.height/2
+        addStoreButton.setTitleColor(.blue, for: .normal)
+        addStoreButton.clipsToBounds = true
     //    butt.tintColor = .black
-        return butt
+        return addStoreButton
          
       }()
        
        
     //  var arrplants = [plant]()
       var arrPlants: [plant] = [
-//        plant(myimage: UIImage(named: "1")!, myLabel: "شتلة اكليل الجبل", priceLabel: "67 SAR"),
-//        plant(myimage: UIImage(named: "2")!, myLabel: "بنت القنصل وردية", priceLabel: "76 SAR"),
+        plant(myimage: UIImage(named: "1")!, myLabel: "شتلة اكليل الجبل", priceLabel: "67 SAR"),
+        plant(myimage: UIImage(named: "2")!, myLabel: "بنت القنصل وردية", priceLabel: "76 SAR")
 //        plant(myimage: UIImage(named: "3")!, myLabel: "اراليا", priceLabel: "98 SAR"),
 //        plant(myimage: UIImage(named: "4")!, myLabel: "سرو عطري", priceLabel: "86 SAR"),
 //        plant(myimage: UIImage(named: "5")!, myLabel: "صبار", priceLabel: "189 SAR"),
@@ -49,7 +50,7 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
        
       override func viewDidLoad() {
         super.viewDidLoad()
-        title = " online store"
+//        title = " online store"
     //    navigationItem.rightBarButtonItem = UIBarButtonItem (title: "ok", style: .plain, target: self, action: #selector(<#T##@objc method#>))
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical

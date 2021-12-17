@@ -13,6 +13,9 @@ class TabBarVC: UITabBarController, UITabBarControllerDelegate{
   override func viewDidLoad() {
     super.viewDidLoad()
     self.delegate = self
+      
+      tabBar.backgroundColor = .white
+      tabBar.tintColor = .green
      
   }
    
@@ -21,29 +24,29 @@ class TabBarVC: UITabBarController, UITabBarControllerDelegate{
      
     // Create Tab one
     let tabOne = AllUsersVC()
-    let tabOneBarItem = UITabBarItem(title: "Tab 1", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage.png"))
-     
+    let tabOneBarItem = UITabBarItem(title: "مجتمع غيراس", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage.png"))
     tabOne.tabBarItem = tabOneBarItem
      
+//      tabBarItem.badgeColor = .green
      
     // Create Tab two
     let tabTwo = StoreVC()
-    let tabTwoBarItem2 = UITabBarItem(title: "Tab 2", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage2.png"))
+    let tabTwoBarItem2 = UITabBarItem(title: "المتجر", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage2.png"))
      
     tabTwo.tabBarItem = tabTwoBarItem2
      
     // Create Tab three
     let tabThree = MapsVC()
-    let tabTwoBarItem3 = UITabBarItem(title: "Tab 3", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage2.png"))
+    let tabTwoBarItem3 = UITabBarItem(title: "الخريطة", image: UIImage(systemName: "map"), selectedImage: UIImage(named: "selectedImage2.png"))
      
     tabThree.tabBarItem = tabTwoBarItem3
       
       
       // Create Tab four
       let tabFour = ProfileVC()
-      let tabTwoBarItem4 = UITabBarItem(title: "Tab 4", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage2.png"))
+      let tabTwoBarItem4 = UITabBarItem(title: "ملفي الشخصي", image: UIImage(systemName: "house"), selectedImage: UIImage(named: "selectedImage2.png"))
        
-      tabThree.tabBarItem = tabTwoBarItem4
+      tabFour.tabBarItem = tabTwoBarItem4
      
      
     self.viewControllers = [tabOne, tabTwo, tabThree , tabFour]

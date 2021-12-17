@@ -229,23 +229,40 @@ class ProfileVC: UIViewController {
    
   //+++++
   //تغريد
-  func loudData(){
-    db.collection("Requests").getDocuments { [self] (qurySnapshot, error) in
-      if let error = error {
-        print(error)
-      }else{
-        for doc in qurySnapshot!.documents {
-          let data = doc.data()
-          let timestamp: Timestamp = data["RequstDate"] as! Timestamp
-          let datetest: Date = timestamp.dateValue()
-          print(datetest)
-          self.requestArray.append(Request(RequstType: "نوع الطلب: \(data["RequstType"]as? String ?? "no RequstType")", RequstID: "رقم الطلب: \(data["RequstID"]as? String ?? "no RequstID")", RequstDescription: "وصف الطلب/العنوان: \(data["RequstDescription"]as? String ?? "no RequstDescription")", RequstDate: datetest ))
-          print (self.requestArray.count)
-          self.tableView.reloadData()
-        }
-      }
-    }
-  }
+//  func loudData(){
+//    db.collection("Requests").getDocuments { [self] (qurySnapshot, error) in
+//      if let error = error {
+//        print(error)
+//      }else{
+//        for doc in qurySnapshot!.documents {
+//          let data = doc.data()
+//          let timestamp: Timestamp = data["RequstDate"] as! Timestamp
+//          let datetest: Date = timestamp.dateValue()
+//          print(datetest)
+//          self.requestArray.append(Request(RequstType: "نوع الطلب: \(data["RequstType"]as? String ?? "no RequstType")", RequstID: "رقم الطلب: \(data["RequstID"]as? String ?? "no RequstID")", RequstDescription: "وصف الطلب/العنوان: \(data["RequstDescription"]as? String ?? "no RequstDescription")", RequstDate: datetest ))
+//          print (self.requestArray.count)
+//          self.tableView.reloadData()
+//        }
+//      }
+//    }
+//  }
+    
+    func loudData(){
+           db.collection("Requests").getDocuments { [self] (qurySnapshot, error) in
+               if let error = error {
+                   print(error)
+               }else{
+                   for doc in qurySnapshot!.documents {
+                       let data = doc.data()
+                       let timestamp: Timestamp = data["RequstDate"] as! Timestamp
+                       let datetest: Date = timestamp.dateValue()
+                       if (doc.get("UsarID")as? String ?? "nil") == Auth.auth().currentUser?.uid {
+                           self.requestArray.append(Request(RequstType: "نوع الطلب: \(data["RequstType"]as? String ?? "no RequstType")", RequstID: "رقم الطلب: \(data["RequstID"]as? String ?? "no RequstID")", RequstDescription: "وصف الطلب/العنوان: \(data["RequstDescription"]as? String ?? "no RequstDescription")", RequstDate: datetest ))}
+                       self.tableView.reloadData()
+                   }
+               }
+           }
+       }
  
 }
 

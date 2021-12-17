@@ -117,7 +117,11 @@ class NextVc: UIViewController , UIPickerViewDelegate, UIPickerViewDataSource {
         let requstID = UUID().uuidString
         let dayDate = Date()
         db.collection("Requests").addDocument(data:
-                                                ["UsarID":Auth.auth().currentUser?.uid , "RequstType": "***" , "RequstID": requstID , "RequstDescription" : "***", "RequstDate": dayDate ])
+                                                ["UsarID":Auth.auth().currentUser?.uid ,
+                                                 "RequstType": "***" ,
+                                                 "RequstID": requstID ,
+                                                 "RequstDescription" : "***",
+                                                 "RequstDate": dayDate ])
         { (error) in
             if error == nil {
                 print("new doc has been creauted..")

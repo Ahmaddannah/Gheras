@@ -46,11 +46,9 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         mapView.settings.myLocationButton = true
 //        mapView.mapType = GMSMapViewType.kGMSTypeSatellite
         mapView.isMyLocationEnabled = true
- 
-
         
         //Label
-        coordinatesAddressLabel = UILabel(frame: CGRect(x: 10, y: hegiht - hegiht / 8 , width: widht - widht / 4 , height: 80))
+        coordinatesAddressLabel = UILabel(frame: CGRect(x: 10, y: 50, width: 200 , height: 80))
         coordinatesAddressLabel.textColor = .black
         coordinatesAddressLabel.numberOfLines = 4
         coordinatesAddressLabel.textAlignment = .left
@@ -72,6 +70,7 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         newBtn.setImage(UIImage(systemName: "plus.circle.fill"), for: .normal)
         newBtn.layer.cornerRadius = newBtn.frame.width / 2
         newBtn.clipsToBounds = true
+        newBtn.addTarget(self, action: #selector(goForm), for: .touchDown)
         
         //Add Subviews
         view.addSubview(mapView)
@@ -173,5 +172,10 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         coordinatesAddressLabel.layer.cornerRadius = 30
     }
 
+    @objc func goForm () {
+        let vc = AddNewReqVC()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 

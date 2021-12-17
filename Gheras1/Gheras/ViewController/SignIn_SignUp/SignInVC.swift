@@ -108,7 +108,7 @@ class SignInVC: UIViewController {
    
   override func viewDidAppear(_ animated: Bool) {
     if Auth.auth().currentUser != nil {
-      let vc = ProfileVC()
+      let vc = TabBarVC()
       vc.modalPresentationStyle = .fullScreen
       present(vc, animated: true, completion: nil)
     }
