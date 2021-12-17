@@ -263,6 +263,34 @@ class ProfileVC: UIViewController {
                }
            }
        }
+    
+    
+//    @objc func OpenCamera() {
+//          let cameraView = UIImagePickerController()
+//          cameraView.delegate = self
+//          cameraView.sourceType = .camera
+//          self.present(cameraView, animated: true, completion: nil)
+//
+//          print("Camera Opend..")
+//        }
+//
+//
+//        @objc func AccessPhoto() {
+//          let picker = UIImagePickerController()
+//          picker.allowsEditing = true
+//          picker.delegate = self
+//          present(picker, animated: true)
+//        }
+//
+//      func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+//    //    guard let image = info[.editedImage] as? UIImage else { return }
+//
+//        let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage
+//
+//
+//        self.image.image = pickedImage
+//        picker.dismiss(animated: true, completion: nil)
+//      }
  
 }
 

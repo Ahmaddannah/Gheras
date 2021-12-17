@@ -24,7 +24,7 @@ class TabBarVC: UITabBarController, UITabBarControllerDelegate{
      
     // Create Tab one
     let tabOne = AllUsersVC()
-    let tabOneBarItem = UITabBarItem(title: "مجتمع غيراس", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage.png"))
+    let tabOneBarItem = UITabBarItem(title: "مجتمع غراس", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage.png"))
     tabOne.tabBarItem = tabOneBarItem
      
 //      tabBarItem.badgeColor = .green
