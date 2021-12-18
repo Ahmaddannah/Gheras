@@ -3,17 +3,16 @@
 
 
 
-##What's the need?
+## What's the need?
 ..
 
 
-##Project family
-//We all worked together in every single peace of the project, everyone has fun and learned from each others.. 
-Ahmad Yahya - Lola Hadi - Abdullah Mohammed - Ebtesam Saeed - Badreah Saad - Ghada almansour - Taghreed Mohammed - Aldanah Saud - Loujain Fahad
+## Project family
+/All team mebers worked together as a one family in every single peace of the project, everyone has fun and learned from each others.. 
+[AhmadYahya](https://github.com/LolaHadi) - [LolaHadi](https://github.com/LolaHadi) - [AbdullahMohammed](https://github.com/LolaHadi) - [EbtesamSaeed](https://github.com/LolaHadi) - [Taghreed Mohammed](https://github.com/LolaHadi) - [AldanahSaud](https://github.com/LolaHadi) - [Loujain Fahad](https://github.com/LolaHadi) - [BadreahSaad](https://github.com/LolaHadi) - [GhadaAlmansour](https://github.com/LolaHadi) 
 
 
-##Project cooking
-(notion+ work images)
+## Project cooking
 ![PHOTO-2021-12-15-11-10-18](https://user-images.githubusercontent.com/92252764/146649027-88d68ca5-b30b-486f-befb-02686537fb76.jpg)
 ![PHOTO-2021-12-15-11-12-41](https://user-images.githubusercontent.com/92252764/146649036-c4f85345-878a-46bc-aca3-5b12c4e0a3a6.jpg)
 ![PHOTO-2021-12-17-14-46-47](https://user-images.githubusercontent.com/92252764/146649056-e842b831-6c7a-4ca8-851b-604d13f7861e.jpg)
@@ -21,19 +20,18 @@ Ahmad Yahya - Lola Hadi - Abdullah Mohammed - Ebtesam Saeed - Badreah Saad - Gha
 
 
 
-
-##The proposed solution
+## Proposed solution
 Our solution here :)
 - Arabic 
 - Compete
 - All community members engaged
 
 
-##Tour in the app
+## Tour in the app
 (video recording of the app + firebase page)
 
 
-##App main features
+## App main features
 As above, our app contains the following screens:
 - Intro
 - Signup / Login / (app authenticate users using email and password)
@@ -45,7 +43,7 @@ As above, our app contains the following screens:
 - Gheras community
 - Store
 
-##App main features
+## App main features
 As above, our app can provide the following features:
 - User can Signup / Login / Reset Pawssword
 - User can view own profile and view previous orders
@@ -54,15 +52,15 @@ As above, our app can provide the following features:
 - User can order a plant, inside or outside location.
 - User can View store and order. 
 
-##Useability testing and iteration
+## Useability testing and iteration
 ..
 
-##Challenging moments
+## Stormy moments 
 - First hackathon experience! 
 - github
 - cocoapods vs swift packages
 - GoogleMaps vs M1
 
 
-##Conclusion
-we thank .....
+## Conclusion
+We thank .....
