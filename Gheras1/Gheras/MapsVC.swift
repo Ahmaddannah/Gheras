@@ -78,8 +78,8 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         view.addSubview(coordinatesAddressLabel)
         view.addSubview(newBtn)
 
-        
     }
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
             let latitude = location.coordinate.latitude

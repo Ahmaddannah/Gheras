@@ -24,7 +24,7 @@ class TabBarVC: UITabBarController, UITabBarControllerDelegate{
      
     // Create Tab one
     let tabOne = AllUsersVC()
-    let tabOneBarItem = UITabBarItem(title: "مجتمع غراس", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage.png"))
+    let tabOneBarItem = UITabBarItem(title: "مجتمع غراس", image: UIImage(systemName: "person.3.fill"), selectedImage: UIImage(named: "selectedImage.png"))
     tabOne.tabBarItem = tabOneBarItem
      
 //      tabBarItem.badgeColor = .green
@@ -44,7 +44,7 @@ class TabBarVC: UITabBarController, UITabBarControllerDelegate{
       
       // Create Tab four
       let tabFour = ProfileVC()
-      let tabTwoBarItem4 = UITabBarItem(title: "ملفي الشخصي", image: UIImage(systemName: "house"), selectedImage: UIImage(named: "selectedImage2.png"))
+      let tabTwoBarItem4 = UITabBarItem(title: "ملفي الشخصي", image: UIImage(systemName: "person.fill"), selectedImage: UIImage(named: "selectedImage2.png"))
        
       tabFour.tabBarItem = tabTwoBarItem4
      

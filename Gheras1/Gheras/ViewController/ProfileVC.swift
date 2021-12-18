@@ -6,7 +6,7 @@
 //
 import UIKit
 import Firebase
-import SwiftUI
+
 
 class ProfileVC: UIViewController {
    
@@ -137,8 +137,8 @@ class ProfileVC: UIViewController {
   }
    
   @objc func signOut() {
-    let alert = UIAlertController(title: "", message: "Are you sure you want to sign out?", preferredStyle: .alert)
-    let signOutBtn = UIAlertAction(title: "SignOut", style: .destructive) { alertAction in
+    let alert = UIAlertController(title: "", message: "هل انت متأكد من تسجيل الخروج؟", preferredStyle: .alert)
+    let signOutBtn = UIAlertAction(title: "تسجيل خروج", style: .destructive) { alertAction in
       do {
         try Auth.auth().signOut()
         let vc = SignInVC()
@@ -149,7 +149,7 @@ class ProfileVC: UIViewController {
       }
     }
     alert.addAction(signOutBtn)
-    alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+    alert.addAction(UIAlertAction(title: "إلغاء", style: .cancel, handler: nil))
     present(alert, animated: true, completion: nil)
   }
    
@@ -169,8 +169,8 @@ class ProfileVC: UIViewController {
             self.userIcon.image = UIImage(systemName: "person.circle")
           }
           else {
-            sleep(2)
-            self.loadImage(imgStr: imgStr!)
+//            sleep(2)
+              self.loadImage(imgStr: imgStr!)
              
           }
            
@@ -181,7 +181,8 @@ class ProfileVC: UIViewController {
   }
    
   func loadImage(imgStr: String) {
-    let url = "gs://gheras-52e4d.appspot.com/images/" + "\(imgStr)"
+    let url = "gs://gheras-196bd.appspot.com/images/" + "\(imgStr)"
+ 
     let Ref = Storage.storage().reference(forURL: url)
     Ref.getData(maxSize: 1 * 1024 * 1024) { data, error in
       if error != nil {
@@ -317,6 +318,7 @@ extension ProfileVC {
     view.addSubview(pointLbl)
     view.addSubview(editPhotoBtn)
     view.addSubview(tableView)
+    tableView.setEmptyMessage("لا يوجد طلبات، اتجه للخريطة وحدد موقع الغرس لتنفيذ طلب جديد!")
     view.addSubview(infoBtn)
      
     NSLayoutConstraint.activate([
@@ -395,3 +397,23 @@ extension ProfileVC : UITableViewDelegate, UITableViewDataSource {
 
 
 
+extension UITableView {
+
+    func setEmptyMessage(_ message: String) {
+        let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height))
+        messageLabel.text = message
+        messageLabel.textColor = .black
+        messageLabel.numberOfLines = 0
+        messageLabel.textAlignment = .center
+        messageLabel.font = UIFont(name: "TrebuchetMS", size: 15)
+        messageLabel.sizeToFit()
+
+        self.backgroundView = messageLabel
+        self.separatorStyle = .none
+    }
+
+    func restore() {
+        self.backgroundView = nil
+        self.separatorStyle = .singleLine
+    }
+}

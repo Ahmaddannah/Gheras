@@ -28,8 +28,9 @@
 		F4A448BD276A1259009E2BA8 /* AllUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */; };
 		F4A448BF276A125E009E2BA8 /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BE276A125E009E2BA8 /* StoreVC.swift */; };
 		F4A448C1276A1263009E2BA8 /* AddNewReqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */; };
-		F4A448C3276A126A009E2BA8 /* NextVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C2276A126A009E2BA8 /* NextVc.swift */; };
 		F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C4276A1270009E2BA8 /* ViewController10.swift */; };
+		F4C19D12276DF28B0006E406 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C19D11276DF28B0006E406 /* User.swift */; };
+		F4C19D14276E02AB0006E406 /* AuthErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C19D13276E02AB0006E406 /* AuthErrorCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,9 +58,10 @@
 		F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllUsersVC.swift; sourceTree = "<group>"; };
 		F4A448BE276A125E009E2BA8 /* StoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
 		F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewReqVC.swift; sourceTree = "<group>"; };
-		F4A448C2276A126A009E2BA8 /* NextVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextVc.swift; sourceTree = "<group>"; };
 		F4A448C4276A1270009E2BA8 /* ViewController10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController10.swift; sourceTree = "<group>"; };
 		F4BAC411276BAED9004687E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist"; sourceTree = "<group>"; };
+		F4C19D11276DF28B0006E406 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F4C19D13276E02AB0006E406 /* AuthErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthErrorCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				F4455ABB276B97F4007C8FCF /* NewRequestVC_Map */,
 				F4455ABC276B9821007C8FCF /* SignIn_SignUp */,
 				F4455ABA276B8F10007C8FCF /* Store */,
+				F4C19D11276DF28B0006E406 /* User.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -117,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */,
-				F4A448C2276A126A009E2BA8 /* NextVc.swift */,
 			);
 			path = NewRequestVC_Map;
 			sourceTree = "<group>";
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				F4BAC411276BAED9004687E4 /* Info.plist */,
+				F4C19D13276E02AB0006E406 /* AuthErrorCode.swift */,
 				F4455ACA276BAA49007C8FCF /* GoogleService-Info.plist */,
 				F4A4489B276A1206009E2BA8 /* AppDelegate.swift */,
 				F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */,
@@ -325,9 +328,11 @@
 				F4A448B3276A122D009E2BA8 /* MapsVC.swift in Sources */,
 				F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */,
 				F4455AB6276B8DEC007C8FCF /* customCollectionViewCell.swift in Sources */,
+				F4C19D14276E02AB0006E406 /* AuthErrorCode.swift in Sources */,
 				F4455AC0276B9F4D007C8FCF /* ProfileVC.swift in Sources */,
 				F4A448BD276A1259009E2BA8 /* AllUsersVC.swift in Sources */,
 				F4A448B9276A1247009E2BA8 /* ForgotPassVC.swift in Sources */,
+				F4C19D12276DF28B0006E406 /* User.swift in Sources */,
 				F4A448BB276A1250009E2BA8 /* TabBarVC.swift in Sources */,
 				F4455AC3276BA0E4007C8FCF /* QsViewController.swift in Sources */,
 				F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */,
@@ -335,7 +340,6 @@
 				F4455AC5276BA2AC007C8FCF /* request.swift in Sources */,
 				F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */,
 				F4A448B7276A1241009E2BA8 /* SignUpVC.swift in Sources */,
-				F4A448C3276A126A009E2BA8 /* NextVc.swift in Sources */,
 				F4455AB8276B8E4E007C8FCF /* PurcahsePage.swift in Sources */,
 				F4A448B5276A1232009E2BA8 /* SignInVC.swift in Sources */,
 				F4A448C1276A1263009E2BA8 /* AddNewReqVC.swift in Sources */,

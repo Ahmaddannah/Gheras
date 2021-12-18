@@ -54,7 +54,7 @@ class questionsViewController: UIViewController {
     
     func setLablesConstraint(){
         let width = view.frame.width - 40
-        let height = view.frame.height - 100
+        let height = view.frame.height - 200
         var y = 40.0
         // stack view
         stackview.distribution = .fill
@@ -76,7 +76,7 @@ class questionsViewController: UIViewController {
         answer1.text = "الاجابة هنا"
         answer1.numberOfLines = 4
         answer1.textAlignment = .right
-        answer1.textColor = .systemGreen
+        answer1.textColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
         y += answer1.frame.height
         y += 20
         //question2
@@ -93,7 +93,7 @@ class questionsViewController: UIViewController {
         answer2.text = "الاجابة هنا"
         answer2.numberOfLines = 4
         answer2.textAlignment = .right
-        answer2.textColor = .systemGreen
+        answer2.textColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
         y += answer2.frame.height
         y += 20
         //question3
@@ -110,7 +110,7 @@ class questionsViewController: UIViewController {
         answer3.text = "الاجابة هنا"
         answer3.numberOfLines = 4
         answer3.textAlignment = .right
-        answer3.textColor = .systemGreen
+        answer3.textColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
         y += answer3.frame.height
         y += 20
         
