@@ -64,8 +64,8 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         //Add New
         newBtn.tintColor = .black
         newBtn.frame = CGRect(x: widht - widht / 4 , y: hegiht - hegiht + 40 , width: hegiht / 10, height: hegiht / 10)
-        newBtn.setTitleColor(.green, for: .normal)
-        newBtn.backgroundColor = .red
+        newBtn.setTitleColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1), for: .normal)
+        newBtn.backgroundColor = .green
         newBtn.titleLabel?.text = "+"
         newBtn.setImage(UIImage(systemName: "plus.circle.fill"), for: .normal)
         newBtn.layer.cornerRadius = newBtn.frame.width / 2
@@ -119,11 +119,11 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         marker.title = "الإحداثيات"
         marker.snippet = "\(markerLatitude)\n\(markerLongitude)\n الاسم :  \n البروفايل : "
         
-        marker.icon = GMSMarker.markerImage(with: .green)
+        marker.icon = GMSMarker.markerImage(with: #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1))
         marker.map = mapView
 //        marker.icon?.cgImage = UIImage(systemName: "tree")
         
-        let solidBlue = GMSStrokeStyle.solidColor(.blue)
+        let solidBlue = GMSStrokeStyle.solidColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1))
         let solidBlueSpan = GMSStyleSpan(style: solidBlue)
         let redYellow = GMSStrokeStyle.gradient(from: .red, to: .yellow)
         let redYellowSpan = GMSStyleSpan(style: redYellow)

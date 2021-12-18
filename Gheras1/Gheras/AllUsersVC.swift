@@ -70,25 +70,28 @@ class AllUsersVC: UIViewController {
     }
     
     func loadUser()  {
-        db.collection("Users").getDocuments { [self] (qurySnapshot, error) in
+            db.collection("Users").order(by: "point", descending: true).addSnapshotListener { querySnapshot, error in
                 self.users = []
                 if let error = error {
-                    print(error)
-                }else{
-                    for document in qurySnapshot!.documents {
+                    print("Error: ",error.localizedDescription)
+                }else {
+                    for document in querySnapshot!.documents {
                         let data = document.data()
                         let newUser = User(email: data["email"] as? String ?? "nil", name: data["name"] as? String ?? "nil", userIcon: data["userIcon"] as? String ?? "nil", point: data["point"] as? Int ?? 0)
                         self.users.append(newUser)
                     }
+                    DispatchQueue.main.async {
                         self.tableView.reloadData()
+                    }
                 }
             }
+        }
     }
     
     
     
     
-}
+
 
 extension AllUsersVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

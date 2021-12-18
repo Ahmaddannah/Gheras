@@ -6,6 +6,7 @@
 //
 import UIKit
 import Firebase
+
 class ForgotPasswordVC: UIViewController {
     
     let stackView = UIStackView()
@@ -29,11 +30,11 @@ class ForgotPasswordVC: UIViewController {
         var y = 0.0
         
         //Adding subViews
-        view.addSubview(stackView)
-        stackView.addSubview(emailTextField)
-        stackView.addSubview(stackView2)
-        stackView2.addSubview(returnBtn)
-        stackView2.addSubview(cancelBtn)
+//        view.addSubview(stackView)
+        view.addSubview(emailTextField)
+        view.addSubview(stackView2)
+        view.addSubview(returnBtn)
+        view.addSubview(cancelBtn)
         
         //StackView
         stackView.axis = .vertical
@@ -46,18 +47,13 @@ class ForgotPasswordVC: UIViewController {
         emailTextField.placeholder = "البريد الالكتروني"
         emailTextField.textAlignment = .right
         emailTextField.borderStyle = .roundedRect
+        emailTextField.center = view.center
         y+=emailTextField.frame.height
         y+=20
         
         
-        //StackView2
-        stackView2.frame = CGRect(x: 0, y: y, width: width, height: height/4)
-        stackView2.distribution = .fillEqually
-        stackView2.axis = .horizontal
-        
-        
         //Cancel Password Btn
-        cancelBtn.frame = CGRect(x: 0, y: y, width: width/2-10, height: height/4)
+        cancelBtn.frame = CGRect(x: 50, y: 550, width: width/2-10, height: height/4)
         cancelBtn.backgroundColor = .white
         cancelBtn.layer.borderWidth = 1
         cancelBtn.layer.borderColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
@@ -67,7 +63,7 @@ class ForgotPasswordVC: UIViewController {
         cancelBtn.addTarget(self, action: #selector(cancel), for: .touchUpInside)
         
         //Return Password Btn
-        returnBtn.frame = CGRect(x: cancelBtn.frame.width+10.0, y: y, width: width/2-10, height: height/4)
+        returnBtn.frame = CGRect(x: 200 , y: 550, width: width/2-10, height: height/4)
         returnBtn.backgroundColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
         returnBtn.layer.cornerRadius = returnBtn.frame.height/2
         returnBtn.setTitleColor(.white, for: .normal)

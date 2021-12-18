@@ -15,7 +15,7 @@ class TabBarVC: UITabBarController, UITabBarControllerDelegate{
     self.delegate = self
       
       tabBar.backgroundColor = .white
-      tabBar.tintColor = .green
+      tabBar.tintColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
      
   }
    
@@ -24,14 +24,13 @@ class TabBarVC: UITabBarController, UITabBarControllerDelegate{
      
     // Create Tab one
     let tabOne = AllUsersVC()
-    let tabOneBarItem = UITabBarItem(title: "مجتمع غراس", image: UIImage(systemName: "person.3.fill"), selectedImage: UIImage(named: "selectedImage.png"))
+    let tabOneBarItem = UITabBarItem(title: "مجتمع غراس", image: UIImage(systemName: "person.3"), selectedImage: UIImage(named: "selectedImage.png"))
     tabOne.tabBarItem = tabOneBarItem
      
-//      tabBarItem.badgeColor = .green
      
     // Create Tab two
     let tabTwo = StoreVC()
-    let tabTwoBarItem2 = UITabBarItem(title: "المتجر", image: UIImage(systemName: "heart"), selectedImage: UIImage(named: "selectedImage2.png"))
+    let tabTwoBarItem2 = UITabBarItem(title: "المتجر", image: UIImage(systemName: "bag"), selectedImage: UIImage(named: "selectedImage2.png"))
      
     tabTwo.tabBarItem = tabTwoBarItem2
      
@@ -44,7 +43,7 @@ class TabBarVC: UITabBarController, UITabBarControllerDelegate{
       
       // Create Tab four
       let tabFour = ProfileVC()
-      let tabTwoBarItem4 = UITabBarItem(title: "ملفي الشخصي", image: UIImage(systemName: "person.fill"), selectedImage: UIImage(named: "selectedImage2.png"))
+      let tabTwoBarItem4 = UITabBarItem(title: "ملفي الشخصي", image: UIImage(systemName: "person"), selectedImage: UIImage(named: "selectedImage2.png"))
        
       tabFour.tabBarItem = tabTwoBarItem4
      

@@ -17,11 +17,11 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
         let addStoreButton = UIButton()
         addStoreButton.setImage(.init(systemName: "cart.badge.plus"), for: .normal)
         addStoreButton.backgroundColor = .white
-          addStoreButton.tintColor = .green
-    //    butt.backgroundColor = .blue
+          addStoreButton.tintColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
+
         addStoreButton.layer.cornerRadius = 10
         addStoreButton.layer.cornerRadius = addStoreButton.frame.height/2
-        addStoreButton.setTitleColor(.blue, for: .normal)
+        addStoreButton.setTitleColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1), for: .normal)
         addStoreButton.clipsToBounds = true
     //    butt.tintColor = .black
         return addStoreButton

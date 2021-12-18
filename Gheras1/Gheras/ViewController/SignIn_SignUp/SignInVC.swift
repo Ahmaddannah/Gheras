@@ -20,17 +20,14 @@ class SignInVC: UIViewController {
     var textFieldPassword = UITextField()
     var forgetPassword = UIButton()
     var signIn = UIButton()
-    
-    var stackView2 = UIStackView()
-    var labelCreat = UILabel()
     var signUp = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0.9686275125, green: 0.9686275125, blue: 0.9686276317, alpha: 1)
-            setDesign()
         hideKeyboardWhenTappedAround()
-            }
+        setDesign()
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         if Auth.auth().currentUser != nil {
@@ -41,12 +38,12 @@ class SignInVC: UIViewController {
     }
     
     func setDesign() {
-         
+        
         //Constants
         let width = view.frame.width-100
         let height = view.frame.height-300
         var y = 0.0
-         
+        
         //Adding SubViews
         view.addSubview(stackView)
         stackView.addSubview(imageView)
@@ -54,15 +51,13 @@ class SignInVC: UIViewController {
         stackView.addSubview(textFieldPassword)
         stackView.addSubview(forgetPassword)
         stackView.addSubview(signIn)
-        stackView.addSubview(stackView2)
-        stackView2.addSubview(labelCreat)
-        stackView2.addSubview(signUp)
-         
+        view.addSubview(signUp)
+        
         //stack view 1
         stackView.axis = .vertical
         stackView.frame = CGRect(x: 0, y: y, width: width, height: height)
         stackView.center = view.center
-         
+        
         //ImageView
         imageView.frame = CGRect(x: width*0.19, y: y, width: width/1.5, height: width/1.5)
         imageView.image = UIImage(named: "11")
@@ -77,7 +72,7 @@ class SignInVC: UIViewController {
         textFieldEmail.textColor = .darkGray
         y+=textFieldEmail.frame.height
         y+=10
-         
+        
         //Password
         textFieldPassword.frame = CGRect(x: 0, y: y, width: width, height: height/14)
         textFieldPassword.placeholder = "كلمة المرور"
@@ -85,7 +80,7 @@ class SignInVC: UIViewController {
         textFieldPassword.borderStyle = .roundedRect
         textFieldPassword.textColor = .darkGray
         y+=textFieldPassword.frame.height
-
+        
         //Forget
         forgetPassword.frame = CGRect(x:0, y: y, width: width, height: height/10)
         forgetPassword.setTitle("نسيت كلمة المرور؟", for: .normal)
@@ -95,7 +90,7 @@ class SignInVC: UIViewController {
         forgetPassword.addTarget(self, action: #selector(forgetPasswordAction), for: .touchUpInside)
         y+=forgetPassword.frame.height
         y+=60
-         
+        
         // Signin
         signIn.frame = CGRect(x: 0, y: y, width: width, height: height/14)
         signIn.setTitle("تسجيل الدخول", for: .normal)
@@ -106,15 +101,16 @@ class SignInVC: UIViewController {
         signIn.addTarget(self, action: #selector(signInAction), for: .touchUpInside)
         y+=signIn.frame.height
         y+=120
-         
+        
         //signupBtn
-        signUp.frame = CGRect(x: 0, y: y, width: width, height: height/10)
+        signUp.addTarget(self, action: #selector(signUpAction), for: .touchUpInside)
+        signUp.frame = CGRect(x: 50, y: y + 100, width: width, height: height/10)
         signUp.setTitle("إنشاء حساب جديد", for: .normal)
         signUp.titleLabel?.font = .systemFont(ofSize: 16, weight: .bold)
         signUp.contentHorizontalAlignment = .center
         signUp.setTitleColor(.darkGray, for: .normal)
-        signUp.addTarget(self, action: #selector(signUpAction), for: .touchUpInside)
-      }
+        
+    }
     
     @objc func signInAction(){
         if textFieldEmail.text != "" && textFieldPassword.text != "" {
@@ -129,18 +125,19 @@ class SignInVC: UIViewController {
                     
                 }else{
                     let alert = UIAlertController(title: "تنبيه", message: error?.localizedDescription, preferredStyle: .alert)
-                                    alert.addAction(UIAlertAction(title: "حسناً", style: .default, handler: nil))
-                                    self.present(alert, animated: true, completion: nil)
+                    alert.addAction(UIAlertAction(title: "حسناً", style: .default, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
                 }
             })
         } else {
             let alert = UIAlertController(title: "بيانات ناقصة", message: "الرجاء التأكد من إدخال البريد الإلكتروني و كلمة المرور", preferredStyle: .alert)
-                    alert.addAction(UIAlertAction(title: "حسناً", style: .default, handler: nil))
-                    present(alert, animated: true, completion: nil)
+            alert.addAction(UIAlertAction(title: "حسناً", style: .default, handler: nil))
+            present(alert, animated: true, completion: nil)
         }
     }
     
     @objc func signUpAction() {
+        print("clicked")
         let vc = SignUpVC()
         vc.modalPresentationStyle = .fullScreen
         present(vc, animated: true, completion: nil)
@@ -154,16 +151,16 @@ class SignInVC: UIViewController {
     }
     
     func hideKeyboardWhenTappedAround() {
-       
-      let tap = UITapGestureRecognizer(target: self, action: #selector(AddNewReqVC.dismissKeyboard))
-      tap.cancelsTouchesInView = false
-      view.addGestureRecognizer(tap)
-     }
-      
-     @objc func dismissKeyboard() {
-      view.endEditing(true)
-     }
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(AddNewReqVC.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
     
     
     
-     }
+}

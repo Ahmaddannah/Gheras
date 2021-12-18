@@ -23,7 +23,7 @@ class ProfileVC: UIViewController {
   //UIImageView
   let userIcon : UIImageView = {
     let imageView = UIImageView()
-    imageView.tintColor = .blue
+    imageView.tintColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
     imageView.contentMode = .scaleAspectFill
     imageView.frame.size = CGSize(width: 70, height: 70)
     imageView.layer.cornerRadius = imageView.frame.width/2
@@ -37,7 +37,7 @@ class ProfileVC: UIViewController {
       let button = UIButton()
       button.setImage(UIImage(systemName: "rectangle.portrait.and.arrow.right"), for: .normal)
       button.setTitleColor(.white, for: .normal)
-        button.tintColor =  .green
+        button.tintColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
       button.layer.cornerRadius = 15
       button.addTarget(self, action: #selector(signOut), for: .touchDown)
       button.translatesAutoresizingMaskIntoConstraints = false
@@ -66,7 +66,7 @@ class ProfileVC: UIViewController {
   let editPhotoBtn : UIButton = {
     let editPhotoBtn = UIButton()
     editPhotoBtn.setTitle("تعديل الصورة", for: .normal)
-    editPhotoBtn.setTitleColor(.blue, for: .normal)
+    editPhotoBtn.setTitleColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1), for: .normal)
     editPhotoBtn.titleLabel?.font = UIFont.systemFont(ofSize: 14, weight: .regular)
     editPhotoBtn.addTarget(self, action: #selector(editPhotoPressed), for: .touchDown)
     editPhotoBtn.translatesAutoresizingMaskIntoConstraints = false
@@ -76,7 +76,7 @@ class ProfileVC: UIViewController {
   let GherasImage : UIImageView = {
     let imageView = UIImageView()
     imageView.image = UIImage(systemName: "rosette")
-    imageView.tintColor = .blue
+    imageView.tintColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
     imageView.contentMode = .scaleAspectFit
     imageView.clipsToBounds = true
     imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -87,7 +87,7 @@ class ProfileVC: UIViewController {
   let tableView : UITableView = {
     let tableView = UITableView()
     tableView.rowHeight = 110
-    tableView.backgroundColor = .gray
+    tableView.backgroundColor = .white
     tableView.translatesAutoresizingMaskIntoConstraints = false
     return tableView
   }()
@@ -96,7 +96,7 @@ class ProfileVC: UIViewController {
       let infoBtn = UIButton()
       infoBtn.setImage(UIImage(systemName: "info.circle"), for: .normal)
       infoBtn.tintColor = .white
-        infoBtn.backgroundColor = .green
+        infoBtn.backgroundColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
       infoBtn.frame.size = CGSize(width: 40, height: 40)
       infoBtn.layer.cornerRadius = infoBtn.frame.width/2
       infoBtn.addTarget(self, action: #selector(questionsView), for: .touchDown)
@@ -187,7 +187,6 @@ class ProfileVC: UIViewController {
     Ref.getData(maxSize: 1 * 1024 * 1024) { data, error in
       if error != nil {
         print("Error: Image could not download!")
-        print("===================")
         print(error?.localizedDescription)
       } else {
         self.userIcon.image = UIImage(data: data!)
@@ -318,7 +317,7 @@ extension ProfileVC {
     view.addSubview(pointLbl)
     view.addSubview(editPhotoBtn)
     view.addSubview(tableView)
-    tableView.setEmptyMessage("لا يوجد طلبات، اتجه للخريطة وحدد موقع الغرس لتنفيذ طلب جديد!")
+    tableView.setEmptyMessage("لا يوجد طلبات، اتجه للخريطة \n وحدد موقع الغرس لتنفيذ طلب جديد!")
     view.addSubview(infoBtn)
      
     NSLayoutConstraint.activate([

@@ -28,7 +28,6 @@
 		F4A448BD276A1259009E2BA8 /* AllUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */; };
 		F4A448BF276A125E009E2BA8 /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448BE276A125E009E2BA8 /* StoreVC.swift */; };
 		F4A448C1276A1263009E2BA8 /* AddNewReqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */; };
-		F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A448C4276A1270009E2BA8 /* ViewController10.swift */; };
 		F4C19D12276DF28B0006E406 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C19D11276DF28B0006E406 /* User.swift */; };
 		F4C19D14276E02AB0006E406 /* AuthErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C19D13276E02AB0006E406 /* AuthErrorCode.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllUsersVC.swift; sourceTree = "<group>"; };
 		F4A448BE276A125E009E2BA8 /* StoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
 		F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewReqVC.swift; sourceTree = "<group>"; };
-		F4A448C4276A1270009E2BA8 /* ViewController10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController10.swift; sourceTree = "<group>"; };
 		F4BAC411276BAED9004687E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist"; sourceTree = "<group>"; };
 		F4C19D11276DF28B0006E406 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F4C19D13276E02AB0006E406 /* AuthErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthErrorCode.swift; sourceTree = "<group>"; };
@@ -91,6 +89,14 @@
 				D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F442E948276E4B2F006A2607 /* Error Code */ = {
+			isa = PBXGroup;
+			children = (
+				F4C19D13276E02AB0006E406 /* AuthErrorCode.swift */,
+			);
+			path = "Error Code";
 			sourceTree = "<group>";
 		};
 		F4455AB9276B8F03007C8FCF /* ViewController */ = {
@@ -173,16 +179,15 @@
 			isa = PBXGroup;
 			children = (
 				F4BAC411276BAED9004687E4 /* Info.plist */,
-				F4C19D13276E02AB0006E406 /* AuthErrorCode.swift */,
 				F4455ACA276BAA49007C8FCF /* GoogleService-Info.plist */,
 				F4A4489B276A1206009E2BA8 /* AppDelegate.swift */,
 				F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */,
 				F4A448BA276A124F009E2BA8 /* TabBarVC.swift */,
+				F442E948276E4B2F006A2607 /* Error Code */,
 				F4455AB9276B8F03007C8FCF /* ViewController */,
 				F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */,
 				F4455AC8276BA3D4007C8FCF /* RequestCell.swift */,
 				F4A448B2276A122D009E2BA8 /* MapsVC.swift */,
-				F4A448C4276A1270009E2BA8 /* ViewController10.swift */,
 				F4A448A7276A1209009E2BA8 /* Assets.xcassets */,
 				F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */,
 				F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */,
@@ -324,7 +329,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4455AC9276BA3D4007C8FCF /* RequestCell.swift in Sources */,
-				F4A448C5276A1270009E2BA8 /* ViewController10.swift in Sources */,
 				F4A448B3276A122D009E2BA8 /* MapsVC.swift in Sources */,
 				F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */,
 				F4455AB6276B8DEC007C8FCF /* customCollectionViewCell.swift in Sources */,
