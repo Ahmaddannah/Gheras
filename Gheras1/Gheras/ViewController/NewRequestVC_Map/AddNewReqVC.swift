@@ -17,6 +17,7 @@ var userID = Auth.auth().currentUser?.uid
     
     let cameraView = UIImagePickerController()
 
+   
     
     // viewController
     let firstView = UIView()
@@ -77,6 +78,8 @@ var userID = Auth.auth().currentUser?.uid
     override func viewDidLoad() {
         super.viewDidLoad()
         
+     
+
         // view
         detailsOfVC()
         //
@@ -290,6 +293,8 @@ extension AddNewReqVC {
     
     
 }
+
+
 
 
 extension AddNewReqVC {

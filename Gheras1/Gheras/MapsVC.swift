@@ -14,7 +14,6 @@ import GoogleMaps
 class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate {
   
 
-    
     var myLocation = CLLocationManager()
     
 
@@ -27,6 +26,8 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
         view.backgroundColor = .orange
         let hegiht = view.frame.height
         let widht = view.frame.width
@@ -80,6 +81,11 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
 
     }
     
+    override var prefersStatusBarHidden: Bool {
+
+     return true
+    }
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
             let latitude = location.coordinate.latitude
@@ -112,8 +118,8 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         marker.position = coordinate
         
         // getting marker coordinates
-        let markerLatitude = Float( coordinate.latitude )
-        let markerLongitude = Float(coordinate.longitude)
+        var markerLatitude = Float( coordinate.latitude )
+        var markerLongitude = Float(coordinate.longitude)
         
         
         marker.title = "الإحداثيات"

@@ -13,10 +13,10 @@ class AllUsersVC: UIViewController {
     
     var tableView = UITableView()
     var safeArea: UILayoutGuide!
-    var arrOfUsers: NSArray = []
+//    var arrOfUsers: NSArray = []
     //    var arrOfUsers = []
-    var arrOfNames = ["name" , "name2"] // wrong
-    var arrOfImages = ["person" , "heart"] //wrong
+//    var arrOfNames = ["name" , "name2"] // wrong
+//    var arrOfImages = ["person" , "heart"] //wrong
     
     let db = Firestore.firestore()
     var users = [User]()
@@ -29,8 +29,8 @@ class AllUsersVC: UIViewController {
         safeArea = view.layoutMarginsGuide
         
         loadUser()
-        tableView.delegate = self
-        tableView.dataSource = self
+//        tableView.delegate = self
+//        tableView.dataSource = self
     }
     
     //    func getUserData(){
@@ -93,17 +93,18 @@ class AllUsersVC: UIViewController {
     
 
 
-extension AllUsersVC: UITableViewDataSource, UITableViewDelegate {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        users.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-//        cell.textLabel?.text = arrOfNames[indexPath.row]
-        cell.textLabel?.text = users[indexPath.row].name
-      //  cell.imageView?.image = UIImage(named: arrOfImages[indexPath.row])
-        return cell
-    }
-    
-}
+//extension AllUsersVC: UITableViewDataSource, UITableViewDelegate {
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        users.count
+//    }
+//
+////    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//////        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! AllUsersCell
+//////        cell.nameLabel.text = users[indexPath.row].name
+//////        cell.pointLabel.text = String(users[indexPath.row].point)
+////////        cell.userIconImageView.image = users[indexPath.row].userIcon.image
+////        return cell
+//////    }
+////    }
+//
+//}

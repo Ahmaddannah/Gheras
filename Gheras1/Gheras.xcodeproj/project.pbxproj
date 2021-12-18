@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		99D0690123C8384BAD9A221F /* Pods_Gheras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */; };
+		F442E94B276E66F0006A2607 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442E94A276E66F0006A2607 /* SwipingController.swift */; };
+		F442E94D276E6784006A2607 /* SwipingControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442E94C276E6784006A2607 /* SwipingControllerExtention.swift */; };
+		F442E94F276E6806006A2607 /* swipingControllerUICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442E94E276E6806006A2607 /* swipingControllerUICollectionView.swift */; };
+		F442E951276E6876006A2607 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442E950276E6876006A2607 /* Page.swift */; };
+		F442E953276E6889006A2607 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442E952276E6889006A2607 /* PageCell.swift */; };
+		F442E956276E6C83006A2607 /* AllUsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442E955276E6C83006A2607 /* AllUsersCell.swift */; };
 		F4455AB6276B8DEC007C8FCF /* customCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455AB5276B8DEC007C8FCF /* customCollectionViewCell.swift */; };
 		F4455AB8276B8E4E007C8FCF /* PurcahsePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455AB7276B8E4E007C8FCF /* PurcahsePage.swift */; };
 		F4455AC0276B9F4D007C8FCF /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4455ABF276B9F4D007C8FCF /* ProfileVC.swift */; };
@@ -36,6 +42,12 @@
 		324543CEF72FEFAD62397558 /* Pods-Gheras.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gheras.debug.xcconfig"; path = "Target Support Files/Pods-Gheras/Pods-Gheras.debug.xcconfig"; sourceTree = "<group>"; };
 		D84F1B533C7C1FD28611C990 /* Pods_Gheras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gheras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA628723CA05DD38161F3DC /* Pods-Gheras.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gheras.release.xcconfig"; path = "Target Support Files/Pods-Gheras/Pods-Gheras.release.xcconfig"; sourceTree = "<group>"; };
+		F442E94A276E66F0006A2607 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		F442E94C276E6784006A2607 /* SwipingControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingControllerExtention.swift; sourceTree = "<group>"; };
+		F442E94E276E6806006A2607 /* swipingControllerUICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipingControllerUICollectionView.swift; sourceTree = "<group>"; };
+		F442E950276E6876006A2607 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		F442E952276E6889006A2607 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		F442E955276E6C83006A2607 /* AllUsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersCell.swift; sourceTree = "<group>"; };
 		F4455AB5276B8DEC007C8FCF /* customCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCollectionViewCell.swift; sourceTree = "<group>"; };
 		F4455AB7276B8E4E007C8FCF /* PurcahsePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurcahsePage.swift; sourceTree = "<group>"; };
 		F4455ABF276B9F4D007C8FCF /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -99,6 +111,27 @@
 			path = "Error Code";
 			sourceTree = "<group>";
 		};
+		F442E949276E66B6006A2607 /* intro VC */ = {
+			isa = PBXGroup;
+			children = (
+				F442E94A276E66F0006A2607 /* SwipingController.swift */,
+				F442E94C276E6784006A2607 /* SwipingControllerExtention.swift */,
+				F442E94E276E6806006A2607 /* swipingControllerUICollectionView.swift */,
+				F442E950276E6876006A2607 /* Page.swift */,
+				F442E952276E6889006A2607 /* PageCell.swift */,
+			);
+			name = "intro VC";
+			sourceTree = "<group>";
+		};
+		F442E954276E6C61006A2607 /* AllUsers */ = {
+			isa = PBXGroup;
+			children = (
+				F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */,
+				F442E955276E6C83006A2607 /* AllUsersCell.swift */,
+			);
+			path = AllUsers;
+			sourceTree = "<group>";
+		};
 		F4455AB9276B8F03007C8FCF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				F4A448BE276A125E009E2BA8 /* StoreVC.swift */,
-				F4455AB5276B8DEC007C8FCF /* customCollectionViewCell.swift */,
 				F4455AB7276B8E4E007C8FCF /* PurcahsePage.swift */,
+				F4455AB5276B8DEC007C8FCF /* customCollectionViewCell.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -144,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				F4455ABF276B9F4D007C8FCF /* ProfileVC.swift */,
+				F442E949276E66B6006A2607 /* intro VC */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
@@ -185,7 +219,7 @@
 				F4A448BA276A124F009E2BA8 /* TabBarVC.swift */,
 				F442E948276E4B2F006A2607 /* Error Code */,
 				F4455AB9276B8F03007C8FCF /* ViewController */,
-				F4A448BC276A1259009E2BA8 /* AllUsersVC.swift */,
+				F442E954276E6C61006A2607 /* AllUsers */,
 				F4455AC8276BA3D4007C8FCF /* RequestCell.swift */,
 				F4A448B2276A122D009E2BA8 /* MapsVC.swift */,
 				F4A448A7276A1209009E2BA8 /* Assets.xcassets */,
@@ -331,6 +365,7 @@
 				F4455AC9276BA3D4007C8FCF /* RequestCell.swift in Sources */,
 				F4A448B3276A122D009E2BA8 /* MapsVC.swift in Sources */,
 				F4A448A6276A1207009E2BA8 /* Gheras.xcdatamodeld in Sources */,
+				F442E94B276E66F0006A2607 /* SwipingController.swift in Sources */,
 				F4455AB6276B8DEC007C8FCF /* customCollectionViewCell.swift in Sources */,
 				F4C19D14276E02AB0006E406 /* AuthErrorCode.swift in Sources */,
 				F4455AC0276B9F4D007C8FCF /* ProfileVC.swift in Sources */,
@@ -340,11 +375,16 @@
 				F4A448BB276A1250009E2BA8 /* TabBarVC.swift in Sources */,
 				F4455AC3276BA0E4007C8FCF /* QsViewController.swift in Sources */,
 				F4A4489C276A1206009E2BA8 /* AppDelegate.swift in Sources */,
+				F442E956276E6C83006A2607 /* AllUsersCell.swift in Sources */,
 				F4A448BF276A125E009E2BA8 /* StoreVC.swift in Sources */,
+				F442E953276E6889006A2607 /* PageCell.swift in Sources */,
+				F442E94F276E6806006A2607 /* swipingControllerUICollectionView.swift in Sources */,
 				F4455AC5276BA2AC007C8FCF /* request.swift in Sources */,
 				F4A4489E276A1207009E2BA8 /* SceneDelegate.swift in Sources */,
 				F4A448B7276A1241009E2BA8 /* SignUpVC.swift in Sources */,
 				F4455AB8276B8E4E007C8FCF /* PurcahsePage.swift in Sources */,
+				F442E951276E6876006A2607 /* Page.swift in Sources */,
+				F442E94D276E6784006A2607 /* SwipingControllerExtention.swift in Sources */,
 				F4A448B5276A1232009E2BA8 /* SignInVC.swift in Sources */,
 				F4A448C1276A1263009E2BA8 /* AddNewReqVC.swift in Sources */,
 			);

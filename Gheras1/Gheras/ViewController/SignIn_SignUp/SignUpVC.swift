@@ -112,7 +112,7 @@ class SignUpVC: UIViewController {
             //Signin
             signIn.frame = CGRect(x: 0, y: y, width: width, height: height/14)
             signIn.setTitle("لديك حساب بالفعل؟ تسجيل الدخول", for: .normal)
-            signIn.titleLabel?.font = UIFont.systemFont(ofSize: 18)
+            signIn.titleLabel?.font = UIFont.systemFont(ofSize: 16)
             signIn.setTitleColor(.darkGray, for: .normal)
             signIn.contentHorizontalAlignment = .center
             signIn.addTarget(self, action: #selector(signInAction), for: .touchUpInside)

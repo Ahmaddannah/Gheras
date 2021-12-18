@@ -24,7 +24,7 @@ class SignInVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = #colorLiteral(red: 0.9686275125, green: 0.9686275125, blue: 0.9686276317, alpha: 1)
+        view.backgroundColor = .white
         hideKeyboardWhenTappedAround()
         setDesign()
     }
@@ -60,7 +60,7 @@ class SignInVC: UIViewController {
         
         //ImageView
         imageView.frame = CGRect(x: width*0.19, y: y, width: width/1.5, height: width/1.5)
-        imageView.image = UIImage(named: "11")
+        imageView.image = UIImage(named: "Gheras")
         y+=imageView.frame.height
         y+=20
         
@@ -84,7 +84,7 @@ class SignInVC: UIViewController {
         //Forget
         forgetPassword.frame = CGRect(x:0, y: y, width: width, height: height/10)
         forgetPassword.setTitle("نسيت كلمة المرور؟", for: .normal)
-        forgetPassword.titleLabel?.font = .systemFont(ofSize: 14, weight: .bold)
+        forgetPassword.titleLabel?.font = .systemFont(ofSize: 14)
         forgetPassword.contentHorizontalAlignment = .left
         forgetPassword.setTitleColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1), for: .normal)
         forgetPassword.addTarget(self, action: #selector(forgetPasswordAction), for: .touchUpInside)
@@ -106,7 +106,7 @@ class SignInVC: UIViewController {
         signUp.addTarget(self, action: #selector(signUpAction), for: .touchUpInside)
         signUp.frame = CGRect(x: 50, y: y + 100, width: width, height: height/10)
         signUp.setTitle("إنشاء حساب جديد", for: .normal)
-        signUp.titleLabel?.font = .systemFont(ofSize: 16, weight: .bold)
+        signUp.titleLabel?.font = .systemFont(ofSize: 16)
         signUp.contentHorizontalAlignment = .center
         signUp.setTitleColor(.darkGray, for: .normal)
         

@@ -48,7 +48,7 @@ class TabBarVC: UITabBarController, UITabBarControllerDelegate{
       tabFour.tabBarItem = tabTwoBarItem4
      
      
-    self.viewControllers = [tabOne, tabTwo, tabThree , tabFour]
+    self.viewControllers = [tabFour, tabTwo, tabThree , tabOne]
   }
    
   // UITabBarControllerDelegate method
