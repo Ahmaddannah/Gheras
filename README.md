@@ -45,7 +45,7 @@ As above, our app contains the following screens:
 
 ## App main features
 As above, our app can provide the following features:
-- User can Signup / Login / Reset Pawssword
+- User can Signup / Login / Reset Password
 - User can view own profile and view previous orders
 - User can view other users profiles
 - User can view map and view others plants
