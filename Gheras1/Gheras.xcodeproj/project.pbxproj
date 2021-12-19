@@ -121,6 +121,7 @@
 				F442E952276E6889006A2607 /* PageCell.swift */,
 			);
 			name = "intro VC";
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		F442E954276E6C61006A2607 /* AllUsers */ = {
@@ -132,15 +133,40 @@
 			path = AllUsers;
 			sourceTree = "<group>";
 		};
+		F442E957276F273E006A2607 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F4A448B2276A122D009E2BA8 /* MapsVC.swift */,
+				F4455ABB276B97F4007C8FCF /* NewRequestVC_Map */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F442E958276F2789006A2607 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				F4A448BA276A124F009E2BA8 /* TabBarVC.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		F442E959276F28C3006A2607 /* App And Scene Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4489B276A1206009E2BA8 /* AppDelegate.swift */,
+				F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */,
+			);
+			path = "App And Scene Delegate";
+			sourceTree = "<group>";
+		};
 		F4455AB9276B8F03007C8FCF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F442E958276F2789006A2607 /* Tab Bar */,
+				F442E957276F273E006A2607 /* Map */,
+				F442E954276E6C61006A2607 /* AllUsers */,
 				F4455ABE276B9F2C007C8FCF /* Profile */,
-				F4455AC1276BA0D0007C8FCF /* Q */,
-				F4455ABB276B97F4007C8FCF /* NewRequestVC_Map */,
-				F4455ABC276B9821007C8FCF /* SignIn_SignUp */,
 				F4455ABA276B8F10007C8FCF /* Store */,
-				F4C19D11276DF28B0006E406 /* User.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -159,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				F4A448C0276A1263009E2BA8 /* AddNewReqVC.swift */,
+				F4455AC8276BA3D4007C8FCF /* RequestCell.swift */,
+				F4455AC4276BA2AC007C8FCF /* request.swift */,
 			);
 			path = NewRequestVC_Map;
 			sourceTree = "<group>";
@@ -177,18 +205,18 @@
 			isa = PBXGroup;
 			children = (
 				F4455ABF276B9F4D007C8FCF /* ProfileVC.swift */,
-				F442E949276E66B6006A2607 /* intro VC */,
+				F4C19D11276DF28B0006E406 /* User.swift */,
+				F4455AC1276BA0D0007C8FCF /* Qestions */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
 		};
-		F4455AC1276BA0D0007C8FCF /* Q */ = {
+		F4455AC1276BA0D0007C8FCF /* Qestions */ = {
 			isa = PBXGroup;
 			children = (
 				F4455AC2276BA0E4007C8FCF /* QsViewController.swift */,
-				F4455AC4276BA2AC007C8FCF /* request.swift */,
 			);
-			name = Q;
+			name = Qestions;
 			sourceTree = "<group>";
 		};
 		F4A4488F276A1206009E2BA8 = {
@@ -214,14 +242,11 @@
 			children = (
 				F4BAC411276BAED9004687E4 /* Info.plist */,
 				F4455ACA276BAA49007C8FCF /* GoogleService-Info.plist */,
-				F4A4489B276A1206009E2BA8 /* AppDelegate.swift */,
-				F4A4489D276A1207009E2BA8 /* SceneDelegate.swift */,
-				F4A448BA276A124F009E2BA8 /* TabBarVC.swift */,
-				F442E948276E4B2F006A2607 /* Error Code */,
+				F442E959276F28C3006A2607 /* App And Scene Delegate */,
+				F442E949276E66B6006A2607 /* intro VC */,
+				F4455ABC276B9821007C8FCF /* SignIn_SignUp */,
 				F4455AB9276B8F03007C8FCF /* ViewController */,
-				F442E954276E6C61006A2607 /* AllUsers */,
-				F4455AC8276BA3D4007C8FCF /* RequestCell.swift */,
-				F4A448B2276A122D009E2BA8 /* MapsVC.swift */,
+				F442E948276E4B2F006A2607 /* Error Code */,
 				F4A448A7276A1209009E2BA8 /* Assets.xcassets */,
 				F4A448A9276A1209009E2BA8 /* LaunchScreen.storyboard */,
 				F4A448A4276A1207009E2BA8 /* Gheras.xcdatamodeld */,
@@ -536,6 +561,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,6 +591,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

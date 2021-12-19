@@ -28,7 +28,7 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
 //    var arrplants = [plant]()
     var arrPlants: [plant] = [
         plant(myimage: UIImage(named: "1")!, myLabel: "شتلة اكليل الجبل", priceLabel: "67 SAR"),
-//        plant(myimage: UIImage(named: "2")!, myLabel: "بنت القنصل وردية", priceLabel: "76 SAR"),
+        plant(myimage: UIImage(named: "2")!, myLabel: "بنت القنصل وردية", priceLabel: "76 SAR"),
 //        plant(myimage: UIImage(named: "3")!, myLabel: "اراليا", priceLabel: "98 SAR"),
 //        plant(myimage: UIImage(named: "4")!, myLabel: "سرو عطري", priceLabel: "86 SAR"),
 //        plant(myimage: UIImage(named: "5")!, myLabel: "صبار", priceLabel: "189 SAR"),
