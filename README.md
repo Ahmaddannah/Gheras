@@ -8,18 +8,14 @@ Based on Saudi 2030 Vision and the Saudi Green Initiative, which aims to protect
 
 
 ## Project family
-All the team members worked together as a one family in every single piece of the project, everyone had so much fun and learned from each others.
+All the team members worked together as a one family in every single piece of the project, everyone had so much fun and learned from each others. 
 [AhmadYahya](https://github.com/ahmadyahyada) - [LolaHadi](https://github.com/LolaHadi) - [AbdullahMohammed](https://github.com/abalqahtani) - [EbtesamSaeed](https://github.com/EbtesamSAlahmari) - [Taghreed Mohammed](https://github.com/taghreed2) - [AldanahSaud](https://github.com/Aldanahsaud) - [Loujain Fahad](https://github.com/LoujainAlshammari) - [BadreahSaad](https://github.com/Badreah) - [GhadaAlmansour](https://github.com/Ghada14133) 
 
 
 ## Project cooking
 Despite of challenging moments, team has kept up there enthusiasm and worked hard during the 4 days. The following are screenshots from the working environment.
-![PHOTO-2021-12-15-11-10-18](https://user-images.githubusercontent.com/92252764/146649027-88d68ca5-b30b-486f-befb-02686537fb76.jpg)
-![PHOTO-2021-12-15-11-12-41](https://user-images.githubusercontent.com/92252764/146649036-c4f85345-878a-46bc-aca3-5b12c4e0a3a6.jpg)
-![PHOTO-2021-12-17-14-46-47](https://user-images.githubusercontent.com/92252764/146649056-e842b831-6c7a-4ca8-851b-604d13f7861e.jpg)
-![PHOTO-2021-12-18-13-59-07](https://user-images.githubusercontent.com/92252764/146649063-47ba7209-bc4c-4d0d-be4f-df41bc51f702.jpg)
 
-
+<img src="https://user-images.githubusercontent.com/92252764/146649027-88d68ca5-b30b-486f-befb-02686537fb76.jpg" width="450" height="450"> <img src="https://user-images.githubusercontent.com/92252764/146649036-c4f85345-878a-46bc-aca3-5b12c4e0a3a6.jpg" width="450" height="450"> <img src="https://user-images.githubusercontent.com/92252764/146649056-e842b831-6c7a-4ca8-851b-604d13f7861e.jpg" width="450" height="450"> <img src="https://user-images.githubusercontent.com/92252764/146649063-47ba7209-bc4c-4d0d-be4f-df41bc51f702.jpg" width="450" height="450">
 
 ## Proposed solution
 We have developed Gheras app, which allows user to create an account and request the plants after navigate the map and see other users plants, which spreads the spirit of competition and fun.
