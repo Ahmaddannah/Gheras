@@ -458,6 +458,7 @@ extension AddNewReqVC:  UIImagePickerControllerDelegate,UINavigationControllerDe
                 let dayDate = Date()
                 db.collection("Requests").addDocument(data: [
                     "UsarID": Auth.auth().currentUser?.uid ,
+                    "UserName": nameField.text,
                     "RequstType": "Public Order",
                     "RequstID": requstID ,
                     "RequstLocation" : addressField.text,
@@ -479,6 +480,7 @@ extension AddNewReqVC:  UIImagePickerControllerDelegate,UINavigationControllerDe
                 let dayDate = Date()
                 db.collection("Requests").addDocument(data: [
                     "UsarID": Auth.auth().currentUser?.uid ,
+                    "UserName": nameField2.text,
                     "RequstType": "Private Order",
                     "RequstID": requstID ,
                     "RequstLocation": addressField2.text,

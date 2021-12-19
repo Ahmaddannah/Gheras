@@ -32,6 +32,9 @@ class AllUsersVC: UIViewController {
         loadUser()
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.rowHeight = 70
+        
+        tableView.register(AllUsersCell.self, forCellReuseIdentifier: "cell")
     }
     
 //        func getUserData(){
@@ -103,7 +106,9 @@ extension AllUsersVC: UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AllUsersCell
         
         cell.nameLabel.text = users[indexPath.row].name
-        cell.pointLabel.text = String(users[indexPath.row].point)
+//        cell.pointLabel.text = String(users[indexPath.row].point)
+        cell.pointLabel.text = String(users[indexPath.row].point) + " غرسة"
+        
         
         
        // cell.userIconImageView.image = users[indexPath.row].userIcon.image

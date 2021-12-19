@@ -27,19 +27,18 @@ class PurcahsePage: UIViewController {
     let purchaseLabel : UILabel = {
         let label = UILabel()
         label.text = "سلة المشتريات"
-        label.backgroundColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
-        label.textColor = .white
+        label.textColor =  #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
+                return label
         return label
 
     }()
     let checkButton : UIButton = {
         let butt  = UIButton()
 //        butt.setImage(.init(systemName: "cart.badge.plus"), for: .normal)
-        butt.setTitle("checkOut", for: .normal)
+        butt.setTitle("الدفع", for: .normal)
         butt.backgroundColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
         butt.layer.cornerRadius = 10
-        butt.layer.cornerRadius = butt.frame.height/2
-        butt.setTitleColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1), for: .normal)
+//        butt.layer.cornerRadius = butt.frame.height/2
         butt.clipsToBounds = true
         butt.setTitleColor(.white, for: .normal)
 //        butt.tintColor = .black

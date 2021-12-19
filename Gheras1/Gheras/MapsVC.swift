@@ -49,8 +49,9 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         mapView.isMyLocationEnabled = true
         
         //Label
-        coordinatesAddressLabel = UILabel(frame: CGRect(x: 10, y: 50, width: 200 , height: 80))
+        coordinatesAddressLabel = UILabel(frame: CGRect(x: 10, y: hegiht-hegiht/5, width: widht-widht/4 , height: 80))
         coordinatesAddressLabel.textColor = .black
+        coordinatesAddressLabel.font = .systemFont(ofSize: 14)
         coordinatesAddressLabel.numberOfLines = 4
         coordinatesAddressLabel.textAlignment = .left
         coordinatesAddressLabel.backgroundColor = .lightGray
@@ -63,15 +64,12 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         pin.tintColor = .purple
         
         //Add New
-        newBtn.tintColor = .black
-        newBtn.frame = CGRect(x: widht - widht / 4 , y: hegiht - hegiht + 40 , width: hegiht / 10, height: hegiht / 10)
-        newBtn.setTitleColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1), for: .normal)
-        newBtn.backgroundColor = .green
-        newBtn.titleLabel?.text = "+"
-        newBtn.setImage(UIImage(systemName: "plus.circle.fill"), for: .normal)
-        newBtn.layer.cornerRadius = newBtn.frame.width / 2
-        newBtn.clipsToBounds = true
-        newBtn.addTarget(self, action: #selector(goForm), for: .touchDown)
+        newBtn.frame = CGRect(x: 50, y: 80, width: widht-widht/4, height:  hegiht/20)
+        newBtn.backgroundColor = #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1)
+        newBtn.layer.cornerRadius = newBtn.frame.height/2
+        newBtn.setTitleColor(.white, for: .normal)
+        newBtn.setTitle("اضافة غرسة", for: .normal)
+        newBtn.addTarget(self, action: #selector(goForm), for: .touchUpInside)
         
         //Add Subviews
         view.addSubview(mapView)

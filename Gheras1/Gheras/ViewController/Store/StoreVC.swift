@@ -17,7 +17,6 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
         butt.setImage(.init(systemName: "cart.badge.plus"), for: .normal)
         butt.backgroundColor = .white
         butt.layer.cornerRadius = 10
-        butt.layer.cornerRadius = butt.frame.height/2
         butt.setTitleColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1), for: .normal)
         butt.clipsToBounds = true
 //        butt.tintColor = .black
@@ -28,7 +27,7 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
     
 //    var arrplants = [plant]()
     var arrPlants: [plant] = [
-        plant(myimage: UIImage(named: "1")!, myLabel: "شتلة اكليل الجبل", priceLabel: "67 SAR")
+        plant(myimage: UIImage(named: "1")!, myLabel: "شتلة اكليل الجبل", priceLabel: "67 SAR"),
 //        plant(myimage: UIImage(named: "2")!, myLabel: "بنت القنصل وردية", priceLabel: "76 SAR"),
 //        plant(myimage: UIImage(named: "3")!, myLabel: "اراليا", priceLabel: "98 SAR"),
 //        plant(myimage: UIImage(named: "4")!, myLabel: "سرو عطري", priceLabel: "86 SAR"),
@@ -37,8 +36,8 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
 //        plant(myimage: UIImage(named: "8")!, myLabel: "شجرة ليمون" ,priceLabel: "90 SAR"),
 //        plant(myimage: UIImage(named: "10")!, myLabel: "دراسينا سينتو", priceLabel: "87 SAR"),
 //        plant(myimage: UIImage(named: "11")!, myLabel: "الاشرعة البيضاء", priceLabel: "109 SAR"),
-//        plant(myimage: UIImage(named: "12")!, myLabel: "اجلونيما", priceLabel: "69"),
-//        plant(myimage: UIImage(named: "13")!, myLabel: "نتوريوم ازهار وردية", priceLabel: "189")
+        plant(myimage: UIImage(named: "12")!, myLabel: "اجلونيما", priceLabel: "69"),
+        plant(myimage: UIImage(named: "13")!, myLabel: "نتوريوم ازهار وردية", priceLabel: "189")
 
 
     ]

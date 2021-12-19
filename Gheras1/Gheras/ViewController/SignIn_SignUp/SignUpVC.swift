@@ -94,6 +94,7 @@ class SignUpVC: UIViewController {
             textFieldPassword.placeholder = "كلمة المرور"
             textFieldPassword.textAlignment = .right
             textFieldPassword.borderStyle = .roundedRect
+            textFieldPassword.isSecureTextEntry = true
             y+=textFieldPassword.frame.height
             y+=20
 
@@ -113,7 +114,7 @@ class SignUpVC: UIViewController {
             signIn.frame = CGRect(x: 0, y: y, width: width, height: height/14)
             signIn.setTitle("لديك حساب بالفعل؟ تسجيل الدخول", for: .normal)
             signIn.titleLabel?.font = UIFont.systemFont(ofSize: 16)
-            signIn.setTitleColor(.darkGray, for: .normal)
+            signIn.setTitleColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1), for: .normal)
             signIn.contentHorizontalAlignment = .center
             signIn.addTarget(self, action: #selector(signInAction), for: .touchUpInside)
         

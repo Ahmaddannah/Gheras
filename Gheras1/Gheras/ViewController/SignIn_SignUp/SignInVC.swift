@@ -79,6 +79,7 @@ class SignInVC: UIViewController {
         textFieldPassword.textAlignment = .right
         textFieldPassword.borderStyle = .roundedRect
         textFieldPassword.textColor = .darkGray
+        textFieldPassword.isSecureTextEntry = true
         y+=textFieldPassword.frame.height
         
         //Forget
@@ -108,7 +109,7 @@ class SignInVC: UIViewController {
         signUp.setTitle("إنشاء حساب جديد", for: .normal)
         signUp.titleLabel?.font = .systemFont(ofSize: 16)
         signUp.contentHorizontalAlignment = .center
-        signUp.setTitleColor(.darkGray, for: .normal)
+        signUp.setTitleColor(#colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1), for: .normal)
         
     }
     
