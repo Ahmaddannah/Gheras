@@ -1,6 +1,5 @@
 # Gheras
-![غِراس (2)](https://user-images.githubusercontent.com/92252764/146649006-4d48d4b1-f753-49ea-8cfe-58b9d69937ea.png)
-
+![github](https://user-images.githubusercontent.com/92252764/146665094-cc0612a1-8527-41d4-b6b9-1ed64ce4c8b1.png)
 
 
 ## What's the need?
@@ -8,7 +7,8 @@ Based on Saudi 2030 Vision and the Saudi Green Initiative, which aims to protect
 
 
 ## Project family
-All the team members worked together as a one family in every single piece of the project, everyone had so much fun and learned from each others. 
+All the team members worked together as a one family in every single piece of the project, everyone had so much fun and learned from each others.
+
 [AhmadYahya](https://github.com/ahmadyahyada) - [LolaHadi](https://github.com/LolaHadi) - [AbdullahMohammed](https://github.com/abalqahtani) - [EbtesamSaeed](https://github.com/EbtesamSAlahmari) - [Taghreed Mohammed](https://github.com/taghreed2) - [AldanahSaud](https://github.com/Aldanahsaud) - [Loujain Fahad](https://github.com/LoujainAlshammari) - [BadreahSaad](https://github.com/Badreah) - [GhadaAlmansour](https://github.com/Ghada14133) 
 
 
@@ -20,17 +20,17 @@ Despite of challenging moments, team has kept up there enthusiasm and worked har
 ## Proposed solution
 We have developed Gheras app, which allows user to create an account and request the plants after navigate the map and see other users plants, which spreads the spirit of competition and fun.
 
-## Strengths points
-**Arabic:** The app targeted the Saudi and middle east culture, so it designed using Arabic language. 
-**Compete:** Each user has points and badges, and there are a section in the app shows the top users. 
-**All community:** The application based mainly on the principle of "Gamefication" which will urge all society with all ages and backgrounds to enjoy using the application and spending time in it, "every one like to play" which will support our goal during a record period of time.
+## Why Ghersa?
+- **Arabic:** The app targeted the Saudi and middle east culture, so it designed using Arabic language. 
+- **Compete:** Each user has points and badges, and there are a section in the app shows the top users. 
+- **All community:** The application based mainly on the principle of "Gamefication" which will urge all society with all ages and backgrounds to enjoy using the application and spending time in it, "every one like to play" which will support our goal during a record period of time.
 
 
 ## Tour in the app
 (video recording of the app + firebase page)
 
 
-## App main screens:
+## App main screens
 As above, our app contains the following screens:
 - Intro
 - Signup / Login / (app authenticate users using email and password)
@@ -54,7 +54,7 @@ As above, our app contains the following screens:
 - Firebase
 - GooglrMaps
 
-## Stormy moments 
+## Stormy times 
 - First hackathon experience! 
 - Github vs 9 team members!
 - cocoapods vs swift packages
