@@ -13,8 +13,8 @@ class AllUsersVC: UIViewController {
     
     var tableView = UITableView()
     var safeArea: UILayoutGuide!
-//    var arrOfUsers: NSArray = []
-    //    var arrOfUsers = []
+   // var arrOfUsers: NSArray = []
+//        var arrOfUsers = []
 //    var arrOfNames = ["name" , "name2"] // wrong
 //    var arrOfImages = ["person" , "heart"] //wrong
     
@@ -25,39 +25,40 @@ class AllUsersVC: UIViewController {
         super.loadView()
         setupTableView()
         
+        
         view.backgroundColor = .white
         safeArea = view.layoutMarginsGuide
         
         loadUser()
-//        tableView.delegate = self
-//        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
-    //    func getUserData(){
-    //
-    //        db.collection("Users").order(by: "point")
-    //          .getDocuments{ (snapshot, error) in
-    //
-    //            if let error = error {
-    //
-    //              print(error.localizedDescription)
-    //
-    //            }else {
-    //
-    //              self.arrOfNames.removeAll()
-    //
-    //              for document in snapshot!.documents {
-    //
-    //                let data = getData(name: document.get("name") as! String , description: document.get("post") as! String)
-    //
-    //                self.arrOfNames.append(data)
-    //
-    //              }
-    //              self.tableView.reloadData()
-    //
-    //            }
-    //          }
-    //      }
+//        func getUserData(){
+//
+//            db.collection("Users").order(by: "point")
+//              .getDocuments{ (snapshot, error) in
+//
+//                if let error = error {
+//
+//                  print(error.localizedDescription)
+//
+//                }else {
+//
+//                  self.users.removeAll()
+//
+//                  for document in snapshot!.documents {
+//
+//                    let data = getData(name: document.get("name") as! String , description: document.get("post") as! String)
+//
+//                    self.users.append(data)
+//
+//                  }
+//                  self.tableView.reloadData()
+//
+//                }
+//              }
+//          }
     
     func setupTableView() {
         view.addSubview(tableView)
@@ -93,18 +94,21 @@ class AllUsersVC: UIViewController {
     
 
 
-//extension AllUsersVC: UITableViewDataSource, UITableViewDelegate {
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        users.count
-//    }
-//
-////    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//////        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! AllUsersCell
-//////        cell.nameLabel.text = users[indexPath.row].name
-//////        cell.pointLabel.text = String(users[indexPath.row].point)
-////////        cell.userIconImageView.image = users[indexPath.row].userIcon.image
-////        return cell
-//////    }
-////    }
-//
-//}
+extension AllUsersVC: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        users.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AllUsersCell
+        
+        cell.nameLabel.text = users[indexPath.row].name
+        cell.pointLabel.text = String(users[indexPath.row].point)
+        
+        
+       // cell.userIconImageView.image = users[indexPath.row].userIcon.image
+        return cell
+    }
+    }
+
+

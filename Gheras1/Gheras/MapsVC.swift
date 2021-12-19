@@ -122,8 +122,8 @@ class MapsVC: UIViewController , CLLocationManagerDelegate , GMSMapViewDelegate 
         var markerLongitude = Float(coordinate.longitude)
         
         
-        marker.title = "الإحداثيات"
-        marker.snippet = "\(markerLatitude)\n\(markerLongitude)\n الاسم :  \n البروفايل : "
+        marker.title = "غرسة"
+        marker.snippet = "\(markerLatitude)\n\(markerLongitude)\n المستخدم : \(Auth.auth().currentUser?.email!)"
         
         marker.icon = GMSMarker.markerImage(with: #colorLiteral(red: 0.04236891121, green: 0.6102550626, blue: 0.2603748143, alpha: 1))
         marker.map = mapView
